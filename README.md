@@ -15,7 +15,7 @@ One folder per monthly edition, each generated from PubMed/NCBI (MEDLINE).
 ## Layout
 
 ```
-index.html                      landing page — edition tabs
+index.html                      landing page, edition tabs
 aug26/
   index.html                    screening dashboard
   readinglist.html              printable reading list
@@ -34,11 +34,11 @@ dashboard / reading list / CSV without going back to the landing page.
 - **Filter** by journal, evidence type, topic, issue, article length and your own marks
 - **Search** across titles, authors, abstracts and MeSH terms
 - **Screen** each paper as Include / Maybe / Exclude, star one as presenting, add notes
-- **Keyboard triage** — `j` `k` to move, `i` `m` `x` to mark, `p` to flag as presenting, `?` for the full list
+- **Keyboard triage**: `j` `k` to move, `i` `m` `x` to mark, `p` to flag as presenting, `?` for the full list
 - **Export** the shortlist as Markdown or all decisions as CSV
 
 Screening decisions are held in the browser's `localStorage`. They are private to that browser
-and are not uploaded anywhere — export them if you want them to survive a cache clear or move
+and are not uploaded anywhere. Export them if you want them to survive a cache clear or move
 to another machine.
 
 ## How an edition is built
@@ -47,8 +47,8 @@ to another machine.
    E-utilities API (`esearch` scoped by journal + volume + issue, then `efetch`).
 2. Records are filtered to that month's scope and classified by evidence type using PubMed
    publication types plus the article title.
-3. Section headings — *Continuing Medical Education*, *Clinical Reviews*, *Review Article*,
-   *Evidence-Based Dermatology* — are read from each publisher's own table of contents, because
+3. Section headings such as *Continuing Medical Education*, *Clinical Reviews*, *Review Article*
+   and *Evidence-Based Dermatology* are read from each publisher's own table of contents, because
    PubMed does not carry them.
 4. Topic tags are derived from MeSH major topics and author keywords.
 
@@ -61,5 +61,5 @@ adding a tab to the landing page and to each page's nav.
 ---
 
 Bibliographic data and abstracts are © the respective publishers and indexed by the U.S. National
-Library of Medicine (PubMed/NCBI). Every entry links to its DOI and PubMed record — always cite
+Library of Medicine (PubMed/NCBI). Every entry links to its DOI and PubMed record, so always cite
 the primary source.
