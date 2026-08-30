@@ -1,0 +1,790 @@
+<!DOCTYPE html><html lang="en" data-theme="auto"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>POWH Dermatology Journal Club, Reading List September 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f2ea;--paper2:#fffdf8;--paper3:#ece5d8;--ink:#17140f;--ink2:#4a4437;--ink3:#8a8172;
+ --rule:#d9d1c0;--rule2:#c4b9a2;--accent:#a8331c;--pine:#1e5b4f;--pine-soft:#dcebe5;--ochre:#9a6a0e;
+ --ochre-soft:#f6e8cc;--indigo:#2c4a76;--indigo-soft:#dde5f1;--plum:#6b2d5c;--plum-soft:#efdeeb}
+@media(prefers-color-scheme:dark){html[data-theme="auto"]{--paper:#12100d;--paper2:#1b1814;--paper3:#241f19;
+ --ink:#f2ece0;--ink2:#b9b0a0;--ink3:#867d6e;--rule:#2e2820;--rule2:#413a2f;--accent:#e2765c;--pine:#6fbfa8;
+ --pine-soft:#12302a;--ochre:#d9a441;--ochre-soft:#332612;--indigo:#8aabd8;--indigo-soft:#1a2334;
+ --plum:#cb92bc;--plum-soft:#2e1a29}}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;background:var(--paper);color:var(--ink);
+ font-size:16px;line-height:1.58;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:2px}
+.shell{max-width:860px;margin:0 auto;padding:0 26px 80px}
+.mast{padding:48px 0 0}
+.mast .org{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3)}
+.mast h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:clamp(40px,7.5vw,72px);line-height:.94;
+ letter-spacing:-.025em;margin:14px 0 0;font-variation-settings:"opsz" 144}
+.mast h1 em{font-style:italic;color:var(--accent)}
+.mast .kicker{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(17px,2.4vw,22px);color:var(--ink2);margin-top:10px}
+.rule{height:3px;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule2);padding:2px 0;margin:22px 0 0}
+.dateline{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:12px;font-family:'IBM Plex Mono',monospace;
+ font-size:11.5px;letter-spacing:.05em;color:var(--ink3)}
+.dateline b{color:var(--ink2);font-weight:500}
+.tools{margin-top:16px;font-size:13px;display:flex;flex-wrap:wrap;gap:16px}
+.tools a{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.05em;
+ border-bottom:1px solid var(--rule2);padding-bottom:1px;text-decoration:none}
+.summary{margin-top:30px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:18px 0}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:18px}
+.scard .n{font-family:'Fraunces',serif;font-size:34px;font-weight:600;line-height:1;color:var(--accent);
+ font-variation-settings:"opsz" 40}
+.scard .l{font-size:12px;color:var(--ink2);margin-top:4px;line-height:1.35}
+.toc{margin-top:24px;display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.toc a{display:flex;justify-content:space-between;align-items:baseline;gap:14px;background:var(--paper2);
+ padding:12px 16px;text-decoration:none;color:var(--ink);transition:background .18s}
+.toc a:hover{background:var(--paper3)}
+.toc .tj{font-family:'Fraunces',serif;font-size:16.5px;font-variation-settings:"opsz" 20}
+.toc .tn{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink3)}
+.note-box{margin-top:24px;border-left:3px solid var(--accent);background:var(--paper2);padding:14px 18px;
+ font-size:13.5px;color:var(--ink2);line-height:1.68}
+.note-box strong{color:var(--ink)}
+.sechead{display:flex;gap:18px;align-items:baseline;margin:58px 0 0;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.secnum{font-family:'Fraunces',serif;font-size:44px;font-weight:600;line-height:.9;color:var(--rule2);
+ font-variation-settings:"opsz" 60}
+.sechead h2{font-family:'Fraunces',serif;font-size:27px;font-weight:600;letter-spacing:-.012em;
+ font-variation-settings:"opsz" 40;line-height:1.15}
+.secscope{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink3);margin-top:4px;letter-spacing:.04em}
+h3.grp{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+ color:var(--accent);margin:34px 0 2px}
+h3.grp .gcount{color:var(--ink3)}
+p.blurb{font-size:13px;color:var(--ink3);margin-bottom:6px;max-width:66ch;font-style:italic}
+.entry{display:grid;grid-template-columns:48px 1fr;gap:0 18px;padding:20px 0 18px;border-top:1px solid var(--rule)}
+.idx{font-family:'Fraunces',serif;font-size:24px;font-weight:600;color:var(--rule2);line-height:1;font-variation-settings:"opsz" 40}
+.tagline{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:7px}
+.badge{font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.12em;
+ text-transform:uppercase;padding:3px 8px;border-radius:2px}
+.b-cme{background:var(--ochre-soft);color:var(--ochre)}
+.b-guide{background:var(--pine-soft);color:var(--pine)}
+.b-review{background:var(--indigo-soft);color:var(--indigo)}
+.b-sr{background:var(--plum-soft);color:var(--plum)}
+.jchip{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.07em;color:var(--ink3)}
+.flag{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+ color:var(--accent);border:1px solid var(--accent);padding:2px 6px;border-radius:2px}
+.flag.brief{color:var(--ink3);border-color:var(--rule2)}
+.entry h3{font-family:'Fraunces',Georgia,serif;font-size:20px;line-height:1.3;font-weight:600;
+ letter-spacing:-.008em;font-variation-settings:"opsz" 32;margin-bottom:5px}
+.entry h3 a{color:var(--ink);text-decoration:none}
+.entry h3 a:hover{color:var(--accent);text-decoration:underline}
+.byline{font-size:13.5px;color:var(--ink2)}
+.cite{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink3);margin-top:2px}
+.topics{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.topic{font-size:11px;color:var(--ink2);background:var(--paper3);border-radius:99px;padding:2px 9px}
+.abs{margin-top:11px;font-size:14px;color:var(--ink2);line-height:1.64;border-left:2px solid var(--rule);padding-left:15px}
+.abs .asec{margin-bottom:9px}.abs .asec:last-child{margin-bottom:0}
+.abs .alabel{display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.13em;
+ text-transform:uppercase;color:var(--ink3);margin-bottom:2px}
+.abs.none{font-style:italic;color:var(--ink3);border-left-style:dashed}
+.mesh{margin-top:9px;font-size:11.5px;color:var(--ink3);font-family:'IBM Plex Mono',monospace;line-height:1.6}
+.links{margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em}
+.links a{text-decoration:none;color:var(--ink3)}.links a:hover{color:var(--accent)}
+footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--ink3);line-height:1.75}
+footer code{font-family:'IBM Plex Mono',monospace;background:var(--paper3);padding:1px 5px;border-radius:2px}
+@media print{
+  body{background:#fff;color:#000;font-size:10pt}
+  .tools,.toc{display:none}
+  .shell{max-width:none;padding:0}
+  .entry,section{break-inside:avoid}
+  .sechead{break-before:page}
+  section:first-of-type .sechead{break-before:auto}
+  a{color:#000;text-decoration:none}
+  .abs{border-left-color:#bbb}
+}
+@media(max-width:640px){.entry{grid-template-columns:34px 1fr;gap:0 12px}.sechead{gap:12px}.secnum{font-size:32px}}
+</style></head><body>
+<nav id="jcnav" aria-label="Site navigation"><style>
+#jcnav{--n-bg:#17140f;--n-fg:#ece5d7;--n-dim:#9c9284;--n-hi:#e2765c;--n-line:#2e2820;
+ background:var(--n-bg);color:var(--n-fg);border-bottom:1px solid var(--n-line);
+ font-family:'IBM Plex Sans','DM Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+ font-size:13px;line-height:1;-webkit-font-smoothing:antialiased}
+#jcnav *{box-sizing:border-box}
+#jcnav a{color:inherit;text-decoration:none}
+#jcnav .jcn{max-width:1180px;margin:0 auto;padding:0 22px;display:flex;align-items:stretch;
+ gap:6px 24px;flex-wrap:wrap;min-height:47px}
+#jcnav .brand{display:flex;align-items:center;gap:7px;padding:14px 0;white-space:nowrap;
+ font-weight:600;letter-spacing:-.005em;transition:color .16s}
+#jcnav .brand b{font-weight:600}
+#jcnav .brand i{font-style:normal;color:var(--n-dim);font-weight:400}
+#jcnav .brand:hover{color:var(--n-hi)}
+#jcnav .tabs{display:flex;align-items:stretch}
+#jcnav .tabs a{display:flex;align-items:center;padding:0 14px;color:var(--n-dim);font-weight:500;
+ border-bottom:2px solid transparent;transition:color .16s,border-color .16s}
+#jcnav .tabs a:hover{color:var(--n-fg)}
+#jcnav .tabs a[aria-current="page"]{color:#fff;border-bottom-color:var(--n-hi)}
+#jcnav .views{margin-left:auto;display:flex;align-items:center;gap:3px;padding:8px 0}
+#jcnav .views a{padding:6px 12px;border-radius:99px;color:var(--n-dim);font-size:12.5px;transition:all .16s}
+#jcnav .views a:hover{background:rgba(255,255,255,.08);color:var(--n-fg)}
+#jcnav .views a[aria-current="page"]{background:rgba(255,255,255,.14);color:#fff}
+@media(max-width:660px){#jcnav .views{margin-left:0;width:100%;padding:0 0 10px;flex-wrap:wrap}
+ #jcnav .jcn{gap:0 14px}}
+@media print{#jcnav{display:none!important}}
+</style>
+<div class="jcn">
+  <a class="brand" href="../"><b>POWH Dermatology</b> <i>Journal Club</i></a>
+  <div class="tabs"><a href="../jul26/">Jul 2026</a><a href="../aug26/">Aug 2026</a><a href="../sep26/" aria-current="page">Sep 2026</a></div>
+  <div class="views">
+    <a href="index.html">Dashboard</a>
+    <a href="readinglist.html" aria-current="page">Reading list</a>
+    <a href="journalclub_sep2026.csv" download>CSV&nbsp;↓</a>
+  </div>
+</div>
+</nav><div class="shell">
+
+<header class="mast">
+  <div class="org">Prince of Wales Hospital &middot; Department of Dermatology &middot; Sydney</div>
+  <h1>Reading&nbsp;List <em>№&nbsp;09</em></h1>
+  <div class="kicker">CME, Reviews &amp; Guidelines for the September 2026 journal club</div>
+  <div class="rule"></div>
+  <div class="dateline">
+    <span>Compiled <b>30 August 2026</b></span>
+    <span>Source <b>PubMed / MEDLINE</b></span>
+    <span><b>45</b> papers from <b>323</b> indexed articles</span>
+    <span><b>31</b> with abstracts</span>
+  </div>
+  <div class="tools">
+    <a href="index.html">↪ Interactive screening dashboard</a>
+    <a href="journalclub_sep2026.csv">↓ Download CSV</a>
+    <a href="javascript:window.print()">⎙ Print / save as PDF</a>
+  </div>
+</header>
+
+<div class="summary"><div class="sgrid"><div class="scard"><div class="n">4</div><div class="l">Continuing medical education</div></div><div class="scard"><div class="n">10</div><div class="l">Guidelines, consensus &amp; position statements</div></div><div class="scard"><div class="n">8</div><div class="l">Narrative &amp; clinical reviews</div></div><div class="scard"><div class="n">8</div><div class="l">Systematic reviews</div></div><div class="scard"><div class="n">11</div><div class="l">Meta-analyses</div></div><div class="scard"><div class="n">4</div><div class="l">Scoping reviews</div></div></div></div>
+<nav class="toc"><a href="#jaad"><span class="tj">Journal of the American Academy of Dermatology</span><span class="tn">23</span></a><a href="#ajd"><span class="tj">Australasian Journal of Dermatology</span><span class="tn">13</span></a><a href="#bjd"><span class="tj">British Journal of Dermatology</span><span class="tn">9</span></a></nav>
+
+<div class="note-box">
+  <p><strong>How this was built.</strong> Every article indexed in PubMed/MEDLINE for the six target
+  issues (323 records) was retrieved, then filtered to CME, narrative and clinical reviews,
+  guidelines, consensus / position statements, systematic reviews, meta-analyses and scoping reviews.
+  Section headings are taken from each publisher's own table of contents, because PubMed does not carry them.</p>
+  <p style="margin-top:9px"><strong>Worth flagging.</strong> The <em>Australasian Journal of Dermatology</em>
+  skips months — volume 66 runs Feb, Mar, May, Jun, Aug, Sep, Nov and Dec — so 66(5) is August and 66(6) September 2025.
+  Because AJD has no July issue, its August number (66/5) also appeared in the August 2026 edition, so those AJD papers
+  recur here by design. Headline items this round include the AAD <em>focused update</em> to the atopic-dermatitis
+  guidelines, the ISCL/EORTC/USCLC paediatric mycosis-fungoides consensus, the DEBRA epidermolysis-bullosa
+  oesophageal-stricture guideline, and two Australasian College of Dermatologists statements on AI in practice.
+  14 short-form papers carry no PubMed abstract and must be screened from the full text.</p>
+</div>
+
+<section id="jaad">
+      <div class="sechead"><div class="secnum">1</div>
+        <div><h2>Journal of the American Academy of Dermatology</h2><div class="secscope">93(2) (August 2025) · 93(3) (September 2025) &nbsp;·&nbsp; 23 papers</div></div></div><h3 class="grp">Continuing medical education <span class="gcount">(4)</span></h3><p class="blurb">Journal-based CME with an accompanying examination. JAAD runs these as two-part series.</p><article class="entry">
+      <div class="idx">01</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-cme">CME</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Continuing Medical Education</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2024.07.1498" target="_blank" rel="noopener">The human skin microbiome in health.</a></h3>
+        <div class="byline">MacGibeny MA, Adjei S, Pyle H, Bunick CG, Ghannoum M, … Kong HH</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):329-336</div>
+        <div class="topics"><span class="topic">Basic science</span><span class="topic">Infection</span></div>
+        <div class="abs"><div class="asec"><p>Human skin is home to a myriad of microorganisms, including bacteria, viruses, fungi, and mites, many of which are considered commensal microbes that aid in maintaining the overall homeostasis or steady-state condition of the skin and contribute to skin health. Our understanding of the complexities of the skin&#39;s interaction with its microorganisms is evolving. This knowledge is based primarily on in vitro and animal studies, and more work is needed to understand how this knowledge relates to humans. Here, we introduce the concept of the skin microbiome and discuss skin microbial ecology, some intrinsic factors with potential influence on the human skin microbiome, and possible microbiome-host interactions. The second article of this two-part CME series describes how microbiome alterations may be associated with skin disease, how medications can affect the microbiome, and what microbiome-based therapies are under investigation.</p></div></div>
+        <div class="mesh">MeSH · Humans · Microbiota · Skin · Skin Diseases · Host Microbial Interactions · Skin Microbiome</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2024.07.1498" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2024.07.1498</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39168311/" target="_blank" rel="noopener">PubMed 39168311</a></div>
+      </div></article><article class="entry">
+      <div class="idx">02</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-cme">CME</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Continuing Medical Education</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2024.07.1499" target="_blank" rel="noopener">The skin microbiome in dermatologic disease.</a></h3>
+        <div class="byline">MacGibeny MA, Adjei S, Pyle H, Bunick CG, Ghannoum M, … Kong HH</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):339-348</div>
+        <div class="topics"><span class="topic">Basic science</span><span class="topic">Infection</span><span class="topic">Eczema / AD</span></div>
+        <div class="abs"><div class="asec"><p>In Part I of our CME, we reviewed the skin microbiome in healthy individuals. Part II reviews the evolving understanding of alterations in the skin microbiome in specific human diseases. We also discuss how the skin microbiome can change with environmental exposures and medications such as antibiotics, as well as ongoing research on microbiome-based interventions.</p></div></div>
+        <div class="mesh">MeSH · Humans · Microbiota · Skin · Skin Diseases · Anti-Bacterial Agents · Skin Microbiome</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2024.07.1499" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2024.07.1499</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39173885/" target="_blank" rel="noopener">PubMed 39173885</a></div>
+      </div></article><article class="entry">
+      <div class="idx">03</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-cme">CME</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Continuing Medical Education</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2024.05.103" target="_blank" rel="noopener">Cutaneous Diseases of Penoscrotal Skin-Part I: Benign and Neoplastic Lesions.</a></h3>
+        <div class="byline">Martinez MJ, Oh CS, Young T, Meehan S, Hall A, Zampella JG</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):585-600</div>
+        <div class="topics"><span class="topic">Skin cancer</span><span class="topic">Infection</span></div>
+        <div class="abs"><div class="asec"><p>Penoscrotal skin diseases encompass an array of pathologies that present with unique clinical features. A patient-tailored approach to management is necessary. This article, part of a continuing medical education series, is dedicated to offering insights for managing penoscrotal dermatoses. The first article will provide an overview of normal variations, benign lesions, and malignant growths. We will then highlight up-to-date diagnostic and treatment protocols. In the second article, we will discuss inflammatory and infectious conditions, reviewing common diseases such as syphilis, human papillomavirus, and psoriasis, as well as rarer, difficult to treat diseases such as lichen sclerosus, lichen planus, and genital dyesthesias. Considering 70% of patients with genital skin diseases report that physicians lack awareness of these conditions, this continuing medical education (CME) Education series will help practitioners identify penoscrotal diseases, expand differential diagnoses, and discuss appropriate and emerging therapies.</p></div></div>
+        <div class="mesh">MeSH · Humans · Male · Scrotum · Skin Diseases · Diagnosis, Differential · Skin Neoplasms · Genital Diseases, Male · Penile Diseases · Penile Neoplasms</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2024.05.103" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2024.05.103</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39103122/" target="_blank" rel="noopener">PubMed 39103122</a></div>
+      </div></article><article class="entry">
+      <div class="idx">04</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-cme">CME</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Continuing Medical Education</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2024.05.104" target="_blank" rel="noopener">Cutaneous Diseases of Penoscrotal Skin-Part II: Infectious and Inflammatory Dermatoses.</a></h3>
+        <div class="byline">Martinez MJ, Oh CS, Young T, Meehan S, Hall A, Zampella JG</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):603-622</div>
+        <div class="topics"><span class="topic">Infection</span><span class="topic">Psoriasis</span></div>
+        <div class="abs"><div class="asec"><p>Penoscrotal skin diseases encompass an array of pathologies that present with unique clinical features. A patient-tailored approach to management is necessary. This article, part of a continuing medical education series, is dedicated to offering insights for managing penoscrotal dermatoses. The first article will provide an overview of normal variations, benign lesions, and malignant growths. We will then highlight up-to-date diagnostic and treatment protocols. In the second article, we will discuss inflammatory and infectious conditions, reviewing common diseases such as syphilis, human papillomavirus, and psoriasis, as well as rarer, difficult to treat diseases such as lichen sclerosus, lichen planus, and genital dyesthesias. Considering 70% of patients with genital skin diseases report that physicians lack awareness of these conditions, this continuing medical education (CME) Education series will help practitioners identify penoscrotal diseases, expand differential diagnoses, and discuss appropriate and emerging therapies.</p></div></div>
+        <div class="mesh">MeSH · Humans · Male · Scrotum · Skin Diseases, Infectious · Genital Diseases, Male · Penile Diseases · Diagnosis, Differential · Skin Diseases · Lichen Planus · Psoriasis · Lichen Sclerosus et Atrophicus · Syphilis</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2024.05.104" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2024.05.104</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39106926/" target="_blank" rel="noopener">PubMed 39106926</a></div>
+      </div></article><h3 class="grp">Guidelines &amp; consensus statements <span class="gcount">(6)</span></h3><p class="blurb">Formal recommendations: Delphi panels, national guideline summaries and consensus / position statements.</p><article class="entry">
+      <div class="idx">05</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.005" target="_blank" rel="noopener">ASTCT and USCLC clinical practice recommendations for allogeneic stem cell transplant in mycosis fungoides and Sézary syndrome.</a></h3>
+        <div class="byline">Goyal A, O&#39;Leary D, Dabaja B, Weng WK, Zain J, … Foss F</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):387-397</div>
+        <div class="topics"><span class="topic">Skin cancer</span></div>
+        <div class="abs"><div class="asec"><p>Mycosis fungoides (MF) and Sézary syndrome (SS) are the most common subtypes of cutaneous T-cell lymphoma. While MF generally follows an indolent course, a subset of patients will experience progressive and/or treatment-refractory disease. SS is an aggressive cutaneous T-cell lymphoma associated with high morbidity and mortality secondary to immune compromise and opportunistic infection. Although allogeneic hematopoietic cell transplant (allo-HCT) is currently the only available potentially curative treatment modality for MF/SS and is included in the National Comprehensive Cancer Network and the American Society for Transplantation and Cellular Therapy treatment guidelines, there is no published guidance regarding referral criteria, timing and allo-HCT approach to help guide clinicians caring for these patients.</p></div><div class="asec"><p>Delphi survey of 32 specialists in dermatology (n = 9), transplant hematology/oncology (n = 10), nontransplant hematology/oncology (n = 8), and radiation oncology (n = 5) from across the United States. Consensus required agreement of ≥75% of participants.</p></div><div class="asec"><p>Sixteen consensus statements were generated on 4 topics: 1) criteria for referral for consideration for allo-HCT, 2) allo-HCT preparative regimens and procedures, 3) disease status at the time of allo-HCT, and 4) multidisciplinary management in the pre- and post-transplant settings.</p></div><div class="asec"><p>These clinical practice guidelines provide a framework for decision-making regarding allo-HCT for MF/SS and highlight areas for future prospective investigation.</p></div></div>
+        <div class="mesh">MeSH · Humans · Mycosis Fungoides · Sezary Syndrome · Skin Neoplasms · Hematopoietic Stem Cell Transplantation · Transplantation, Homologous · Delphi Technique · Consensus · United States · Transplantation Conditioning · Referral and Consultation</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.005" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.005</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40199382/" target="_blank" rel="noopener">PubMed 40199382</a></div>
+      </div></article><article class="entry">
+      <div class="idx">06</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.031" target="_blank" rel="noopener">Evidence-based consensus on the clinical application of photobiomodulation.</a></h3>
+        <div class="byline">Maghfour J, Mineroff J, Ozog DM, Jagdeo J, Lim HW, … Tuner J</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):429-443</div>
+        <div class="topics"><span class="topic">Procedural / cosmetic</span><span class="topic">Hair &amp; nails</span></div>
+        <div class="abs"><div class="asec"><p>There is a lack of evidence-based consensus to assist clinicians in using photobiomodulation (PBM).</p></div><div class="asec"><p>To create a consensus on the safe and effective use of PBM.</p></div><div class="asec"><p>A systematic literature review of Embase and MEDLINE was conducted in June 2022 to identify publications reporting research on PBM. An international multidisciplinary panel was convened to draft recommendations informed by the systematic search; they were refined through 2 rounds of Delphi survey, 2 consensus meetings, and iterative review by all panelists until unanimous consensus was achieved.</p></div><div class="asec"><p>A multidisciplinary panel of experts (n = 21) was assembled based on publication history. The key findings that informed the consensus developed by the expert panel were as follows: PBM is a safe treatment modality for adult patients and red light PBM does not induce DNA damage. PBM is an effective treatment option for peripheral neuropathy, androgenic alopecia, wound ulcers due to multiple etiologies, decubitus ulcers, pain attributed to diabetic foot ulcers, and acute radiation dermatitis.</p></div><div class="asec"><p>The systematic literature search and structured Delphi consensus approach culminated in an evidence-based clinical practice guideline for safe and effective use of PBM in medical and aesthetic applications. Future research will further bolster our understanding of this evolving noninvasive technique.</p></div></div>
+        <div class="mesh">MeSH · Humans · Low-Level Light Therapy · Delphi Technique · Evidence-Based Medicine · Alopecia · Skin Diseases</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.031" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.031</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40253006/" target="_blank" rel="noopener">PubMed 40253006</a></div>
+      </div></article><article class="entry">
+      <div class="idx">07</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.016" target="_blank" rel="noopener">Summation and recommendations for the safe and effective use of topical and oral minoxidil.</a></h3>
+        <div class="byline">Olsen EA, Sinclair R, Hordinsky M, Mesinkovska NA, Sadick N, … Bergfeld W</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):457-465</div>
+        <div class="topics"><span class="topic">Hair &amp; nails</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Topical minoxidil, approved for the treatment of androgenetic alopecia, also has efficacy in many other hair loss disorders, its use is limited due to the need for at least daily application. Oral minoxidil, in doses below those likely to lower blood pressure (so called &quot;low dose oral minoxidil&quot;) has increasingly been used off label to treat a variety of hair loss conditions but without any standard recommended best practices.</p></div><div class="asec"><p>To provide a review of how experts in hair loss use the available literature on topical and low dose oral minoxidil to educate and treat safely and effectively patients with hair loss.</p></div><div class="asec"><p>Dermatologists with expertise in hair disorders met by teleconference and email to review the literature and share their direct experience with topical and oral minoxidil.</p></div><div class="asec"><p>Provision of basic knowledge of the key aspects of the use of topical or oral minoxidil to insure safe and effective use of either in treating hair loss.</p></div></div>
+        <div class="mesh">MeSH · Minoxidil · Humans · Administration, Oral · Alopecia · Administration, Topical · Vasodilator Agents · Practice Guidelines as Topic · Administration, Cutaneous</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.016" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.016</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40216195/" target="_blank" rel="noopener">PubMed 40216195</a></div>
+      </div></article><article class="entry">
+      <div class="idx">08</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1362" target="_blank" rel="noopener">Reflectance confocal microscopy terminology for nonmelanocytic skin lesions: A Delphi consensus of experts.</a></h3>
+        <div class="byline">Navarrete-Dechent C, Longo C, Liopyris K, Ardigo M, Ahlgrimm-Siess V, … Jain M</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):663-670</div>
+        <div class="topics"><span class="topic">Skin cancer</span><span class="topic">AI / informatics</span></div>
+        <div class="abs"><div class="asec"><p>There is lack of uniformity in reflectance confocal microscopy (RCM) terminology.</p></div><div class="asec"><p>To establish expert consensus on a standardized set of RCM terms that describe non-melanocytic lesions (NMLs).</p></div><div class="asec"><p>We invited RCM experts to participate in a Delphi-consensus study. Fifty-nine RCM descriptors were extracted from a previous systematic review on RCM terminology for describing NML. Of these, 35 items were presented as 4 groups of synonymous terms and 24 items as single, nonsynonymous terms. For the first round, an agreement threshold was set at &gt;70%. Participants could also propose new terms. Terms with ≤70% agreement and newly proposed terms were carried over to the next round. For subsequent rounds, agreement threshold was set at &gt;50%.</p></div><div class="asec"><p>The study was conducted between June 2021 and May 2023. Forty-two of 44 (95%) invited experts participated. Three iterative Delphi rounds were completed, resulting in a consensus list of 36 terms, including 32 synonymous and 4 nonsynonymous terms for describing NML.</p></div><div class="asec"><p>Only experts were included. We did not evaluate definitions of terms in the study.</p></div><div class="asec"><p>We propose a simplified list of RCM terms, vetted by RCM experts, for describing and diagnosing NML. Uniform terminology could benefit clinical practice, research, and education.</p></div></div>
+        <div class="mesh">MeSH · Humans · Delphi Technique · Microscopy, Confocal · Terminology as Topic · Skin Neoplasms</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1362" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1362</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40368182/" target="_blank" rel="noopener">PubMed 40368182</a></div>
+      </div></article><article class="entry">
+      <div class="idx">09</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1386" target="_blank" rel="noopener">Focused update: Guidelines of care for the management of atopic dermatitis in adults.</a></h3>
+        <div class="byline">Davis DMR, Frazer-Green L, Alikhan A, Bercovitch L, Cohen DE, … Sidbury R</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):745.e1-745.e7</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>In 2023 and 2024, the American Academy of Dermatology published guidelines on the use of topical and systemic therapies for the management of atopic dermatitis (AD) in adults. Since the publication of these guidelines, several novel therapies have emerged to treat AD.</p></div><div class="asec"><p>To update previous guidelines on the management of AD in adults by providing evidence-based recommendations on the use of additional Food and Drug Administration-approved topical and systemic therapies.</p></div><div class="asec"><p>A multidisciplinary workgroup conducted a systematic review and applied the Grading of Recommendations, Assessment, Development, and Evaluation approach for assessing the certainty of evidence and formulating and grading recommendations.</p></div><div class="asec"><p>The workgroup developed 4 new recommendations for the management of AD in adults.</p></div><div class="asec"><p>This analysis is based on the best available evidence at the time it was conducted. Most randomized controlled trials of the considered therapies for AD are of short duration, limiting comparative long-term efficacy and safety conclusions.</p></div><div class="asec"><p>The workgroup developed strong recommendations for the use of tapinarof cream, roflumilast cream, lebrikizumab, and nemolizumab with concomitant topical therapy.</p></div></div>
+        <div class="mesh">MeSH · Dermatitis, Atopic · Humans · Adult · Dermatologic Agents · Antibodies, Monoclonal, Humanized · Aminopyridines · Drug Therapy, Combination · Evidence-Based Medicine · Dermatology · Randomized Controlled Trials as Topic · Cyclopropanes · Skin Cream · Benzamides</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1386" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1386</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40531067/" target="_blank" rel="noopener">PubMed 40531067</a></div>
+      </div></article><article class="entry">
+      <div class="idx">10</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.003" target="_blank" rel="noopener">Grading differentiation in cutaneous squamous cell carcinoma: A modified Delphi consensus panel.</a></h3>
+        <div class="byline">Shahwan KT, Walker TD, Diede C, Nikahd M, Aasi SZ, … Carr DR</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):781-784</div>
+        <div class="topics"><span class="topic">Skin cancer</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.003" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.003</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40345540/" target="_blank" rel="noopener">PubMed 40345540</a></div>
+      </div></article><h3 class="grp">Narrative &amp; clinical reviews <span class="gcount">(1)</span></h3><p class="blurb">Invited state-of-the-art syntheses from each journal's review section.</p><article class="entry">
+      <div class="idx">11</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.074" target="_blank" rel="noopener">Antiandrogen therapy for the treatment of female pattern hair loss: A clinical review of current and emerging therapies.</a></h3>
+        <div class="byline">Ong MM, Avram M, McMichael A, Tosti A, Lipner SR</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):749-760</div>
+        <div class="topics"><span class="topic">Hair &amp; nails</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Androgenetic alopecia is the most common hair loss type in women, but topical minoxidil is the only Food and Drug Administration-approved treatment option. The pathophysiology involves shortened anagen phases, lengthened telogen phases, and hair follicle miniaturization. Androgens, particularly dihydrotestosterone, play a crucial role in male androgenetic alopecia pathogenesis, but their exact role in female pattern hair loss is unclear. Oral antiandrogens demonstrate some efficacy in women, albeit with considerations for side effects and contraindications. Topical antiandrogens may be used in combination with topical minoxidil or as alternatives to oral medications, likely with fewer systemic adverse effects. Patient-specific factors, including age, signs of hyperandrogenism, or need for contraception may help determine which antiandrogen therapy is most appropriate. This review focuses on current antiandrogen treatments for female pattern hair loss available in the United States and their limitations, as well as emerging treatments that are investigational, studied in other hair loss types, or available in other countries.</p></div></div>
+        <div class="mesh">MeSH · Humans · Alopecia · Androgen Antagonists · Female · Minoxidil · Drug Therapy, Combination · Administration, Topical · Treatment Outcome</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.074" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.074</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40345536/" target="_blank" rel="noopener">PubMed 40345536</a></div>
+      </div></article><h3 class="grp">Systematic reviews <span class="gcount">(5)</span></h3><p class="blurb">Protocol-driven syntheses without pooled estimates.</p><article class="entry">
+      <div class="idx">12</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.025" target="_blank" rel="noopener">A novel treatment for refractory dermatomyositis: A systematic review of anifrolumab and dermatomyositis.</a></h3>
+        <div class="byline">Srivatsa A, Rehman W, Rehman R, Moossavi M, Daveluy S, Potts G</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):543-546</div>
+        <div class="topics"><span class="topic">Autoimmune / bullous</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.025" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.025</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40228662/" target="_blank" rel="noopener">PubMed 40228662</a></div>
+      </div></article><article class="entry">
+      <div class="idx">13</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1382" target="_blank" rel="noopener">Combination of carbon dioxide laser and triamcinolone acetonide for keloid and hypertrophic scar treatment: A systematic review.</a></h3>
+        <div class="byline">Branyiczky MK, Metko D, Hsu JTS, Li MK</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):821-825</div>
+        <div class="topics"><span class="topic">Procedural / cosmetic</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1382" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1382</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40381889/" target="_blank" rel="noopener">PubMed 40381889</a></div>
+      </div></article><article class="entry">
+      <div class="idx">14</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1387" target="_blank" rel="noopener">Friend or foe: A systematic review of dupilumab and alopecia areata.</a></h3>
+        <div class="byline">Srivatsa A, Romanski MG, Rehman W, Graham S, Rehman R, … Mehregan D</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):825-827</div>
+        <div class="topics"><span class="topic">Hair &amp; nails</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1387" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1387</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40378891/" target="_blank" rel="noopener">PubMed 40378891</a></div>
+      </div></article><article class="entry">
+      <div class="idx">15</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1412" target="_blank" rel="noopener">The association between bariatric surgery and improvement in psoriasis: A systematic review.</a></h3>
+        <div class="byline">Branyiczky MK, Lowe M, Vender R</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):845-848</div>
+        <div class="topics"><span class="topic">Psoriasis</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1412" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1412</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40419224/" target="_blank" rel="noopener">PubMed 40419224</a></div>
+      </div></article><article class="entry">
+      <div class="idx">16</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1430" target="_blank" rel="noopener">Clinical presentations and outcomes of cutaneous metastases from prostate cancer: A systematic review.</a></h3>
+        <div class="byline">Udupa M, Qian SY, Udupa S, Pehr K</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):857-859</div>
+        <div class="topics"><span class="topic">Skin cancer</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1430" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1430</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40451310/" target="_blank" rel="noopener">PubMed 40451310</a></div>
+      </div></article><h3 class="grp">Meta-analyses <span class="gcount">(5)</span></h3><p class="blurb">Systematic reviews with quantitative pooling.</p><article class="entry">
+      <div class="idx">17</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.02.095" target="_blank" rel="noopener">Differences of clinical and laboratory features between dipeptidyl peptidase-4 inhibitor-related and nondipeptidyl peptidase-4 inhibitor-related bullous pemphigoid: A systematic review and meta-analysis.</a></h3>
+        <div class="byline">Shen YH, Huang YC</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):499-501</div>
+        <div class="topics"><span class="topic">Autoimmune / bullous</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.02.095" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.02.095</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40158542/" target="_blank" rel="noopener">PubMed 40158542</a></div>
+      </div></article><article class="entry">
+      <div class="idx">18</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.004" target="_blank" rel="noopener">Evaluating the performance of ChatGPT on dermatology board-style exams: A meta-analysis of text-based and image-based question accuracy.</a></h3>
+        <div class="byline">Chen R, Fettel KD, Nguyen DH, Nambudiri VE</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):520-522</div>
+        <div class="topics"><span class="topic">AI / informatics</span><span class="topic">Ethics / practice</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.004" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.004</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40199380/" target="_blank" rel="noopener">PubMed 40199380</a></div>
+      </div></article><article class="entry">
+      <div class="idx">19</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.007" target="_blank" rel="noopener">Comparative effects of biologics and small molecule inhibitors on cutaneous disease activity in lupus erythematosus: A systematic review and network meta-analysis.</a></h3>
+        <div class="byline">Rayner DG, Gou D, Silang I, Xi CE, Sun W, … Dutz JP</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):524-527</div>
+        <div class="topics"><span class="topic">Autoimmune / bullous</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.007" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.007</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40199384/" target="_blank" rel="noopener">PubMed 40199384</a></div>
+      </div></article><article class="entry">
+      <div class="idx">20</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1396" target="_blank" rel="noopener">Use of Janus kinase inhibitors in patients aged ≤18 years with alopecia areata: A systematic review and meta-analysis.</a></h3>
+        <div class="byline">Xu K, He G, Deng Z, Wang L, Lin M</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):831-833</div>
+        <div class="topics"><span class="topic">Hair &amp; nails</span><span class="topic">Paediatric</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1396" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1396</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40383271/" target="_blank" rel="noopener">PubMed 40383271</a></div>
+      </div></article><article class="entry">
+      <div class="idx">21</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">JAAD 93(3) · September 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.05.1418" target="_blank" rel="noopener">Predictors of drug survival of biologics in hidradenitis suppurativa: A systematic review and meta-analysis.</a></h3>
+        <div class="byline">Rayner DG, Gou D, Ologundudu L, Khosravi-Hafshejani T, Dutz JP</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(3):854-857</div>
+        <div class="topics"><span class="topic">Hidradenitis</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.05.1418" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.05.1418</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40419221/" target="_blank" rel="noopener">PubMed 40419221</a></div>
+      </div></article><h3 class="grp">Scoping reviews <span class="gcount">(2)</span></h3><p class="blurb">Broad maps of the evidence landscape and its gaps.</p><article class="entry">
+      <div class="idx">22</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Scoping review</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Reviews</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.03.056" target="_blank" rel="noopener">Current therapeutic options for adult patients with urticarial vasculitis: A scoping review.</a></h3>
+        <div class="byline">Groleau AS, Mereniuk A, Makhzoum JP</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):423-428</div>
+        <div class="topics"><span class="topic">Vascular</span><span class="topic">Autoimmune / bullous</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Urticarial vasculitis (UV) is a rare form of small vessel vasculitis, and there are limited published data on its management.</p></div><div class="asec"><p>This study aims to review the current therapeutic options for UV.</p></div><div class="asec"><p>A PubMed search was conducted, selecting articles published from 2000 to January 2024.</p></div><div class="asec"><p>Of 305 identified articles, 21 were included. Mild cutaneous UV can be treated with antihistamines and nonsteroidal anti-inflammatory drugs. For intermittent cutaneous UV, short courses of systemic corticosteroids are recommended. Hydroxychloroquine, colchicine, and dapsone show comparable efficacy to corticosteroids and are often used for refractory and hypocomplementemic UV patients. In cases with persistent symptoms, first-line immunosuppressants such as azathioprine, cyclophosphamide, cyclosporine A, methotrexate, and mycophenolate mofetil may be considered. Some studies suggest the effectiveness of omalizumab, rituximab, canakinumab, anakinra, and plasmapheresis.</p></div><div class="asec"><p>Only noninterventional observational studies, which were mostly retrospective, were found and included in our scoping review. Furthermore, the study is limited by small sample sizes due to the nature of UV.</p></div><div class="asec"><p>UV is a rare condition with insufficient treatment data. This scoping review outlines potential treatment options, highlighting the need for further research.</p></div></div>
+        <div class="mesh">MeSH · Humans · Urticaria · Immunosuppressive Agents · Vasculitis · Histamine Antagonists · Anti-Inflammatory Agents, Non-Steroidal · Colchicine · Adult · Adrenal Cortex Hormones</div>
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.03.056" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.03.056</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40157507/" target="_blank" rel="noopener">PubMed 40157507</a></div>
+      </div></article><article class="entry">
+      <div class="idx">23</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Scoping review</span>
+          <span class="jchip">JAAD 93(2) · August 2025 · Research Letters</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1016/j.jaad.2025.04.006" target="_blank" rel="noopener">Minoxidil toxicosis in cats and dogs: A scoping review and call to action.</a></h3>
+        <div class="byline">McMullen E, Xiong G, Rayner DG, Brathwaite S, Metko D, … Donovan J</div>
+        <div class="cite">J Am Acad Dermatol. 2025;93(2):522-524</div>
+        <div class="topics"><span class="topic">Drug safety</span><span class="topic">Hair &amp; nails</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Research Letters, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1016/j.jaad.2025.04.006" target="_blank" rel="noopener">DOI 10.1016/j.jaad.2025.04.006</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40189148/" target="_blank" rel="noopener">PubMed 40189148</a></div>
+      </div></article>
+    </section>
+<section id="ajd">
+      <div class="sechead"><div class="secnum">2</div>
+        <div><h2>Australasian Journal of Dermatology</h2><div class="secscope">66(5) (August 2025) · 66(6) (September 2025) &nbsp;·&nbsp; 13 papers</div></div></div><h3 class="grp">Guidelines &amp; consensus statements <span class="gcount">(2)</span></h3><p class="blurb">Formal recommendations: Delphi panels, national guideline summaries and consensus / position statements.</p><article class="entry">
+      <div class="idx">24</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Consensus Statement</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14525" target="_blank" rel="noopener">Consensus on the Use of JAKinibs for Atopic Dermatitis in Australia and New Zealand. An eDelphi by the Australasian Medical Dermatology Group.</a></h3>
+        <div class="byline">Rademaker M, Foley P, Armour K, Baker C, Gebauer K, … Wong LC</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):e287-e296</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>With its chronicity and varied symptomatology, moderate to severe atopic dermatitis (AD) remains a significant challenge for both patients and health care professionals. Novel targeted therapies, including the JAK inhibitors (JAKi) offer significant hope. There are many systematic reviews and meta-analyses of the use of JAKi for the management of atopic dermatitis, but few offer practical advice for the clinician. The aim of this consensus development was to place the current literature for JAKi use in atopic dermatitis within the clinical context of practice in Australasia. The Australasian Medical Dermatology Group (AMDG) reviewed the evidence for the use of JAKi in the management landscape of atopic dermatitis, adding in their cumulative experience, and used an eDelphi process to agree on best practice. In the first round of 133 eDelphi clinical practice statements, consensus was achieved in 117 (88%-complete 27.8%, close 60.1%), with no consensus in 16 (12.0%) of the statements. The 16 clinical practice statements that did not reach consensus were reviewed and revised to 15 statements and then subjected to a second round: complete consensus was achieved in 5/15 statements, close consensus in 6/15, and no consensus in 4/15. Over the two eDelphi rounds, consensus was achieved in 128/132 (97%-complete 32%, close 64%) and no consensus in 4/132 (3%). Statements regarding screening for prior varicella infection, age-appropriate cancer screening intervals, and management of flares did not reach full consensus. This study highlights areas where further research is needed to assist practicing dermatologists in safe prescribing and management of atopic dermatitis with JAK inhibitors.</p></div></div>
+        <div class="mesh">MeSH · Dermatitis, Atopic · Humans · Janus Kinase Inhibitors · New Zealand · Australia · Dermatology</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14525" target="_blank" rel="noopener">DOI 10.1111/ajd.14525</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40366066/" target="_blank" rel="noopener">PubMed 40366066</a></div>
+      </div></article><article class="entry">
+      <div class="idx">25</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Position Statement</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14566" target="_blank" rel="noopener">Informing a Position Statement on the Use of Large Language Models and AI Scribes in Dermatology in Australia.</a></h3>
+        <div class="byline">Caffery LJ, Taylor ML, Abbott LM, Janda M, Guitera P, … Soyer HP</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):e335-e341</div>
+        <div class="topics"><span class="topic">AI / informatics</span><span class="topic">Ethics / practice</span></div>
+        <div class="abs"><div class="asec"><p>Artificial Intelligence (AI) refers to the ability of computers to mimic human intelligence. In response to the growing interest and impact of AI, the Australasian College of Dermatologists released its first Position Statement on AI in dermatology in 2022. This Position Statement provided guidance for dermatologists on the appropriate use of AI. Since then, the AI landscape has evolved substantially, particularly with the emergence of Large Language Models (LLMs). This article explores key developments in AI driven by LLMs, including the increasing use of AI scribes, and provides updated guidance for dermatologists in Australia.</p></div></div>
+        <div class="mesh">MeSH · Artificial Intelligence · Dermatology · Humans · Australia · Language · Documentation · Large Language Models</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14566" target="_blank" rel="noopener">DOI 10.1111/ajd.14566</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40679180/" target="_blank" rel="noopener">PubMed 40679180</a></div>
+      </div></article><h3 class="grp">Narrative &amp; clinical reviews <span class="gcount">(4)</span></h3><p class="blurb">Invited state-of-the-art syntheses from each journal's review section.</p><article class="entry">
+      <div class="idx">26</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14463" target="_blank" rel="noopener">Familial Frontal Fibrosing Alopecia Occurs Early in Daughters With Affected Mothers: A Case Report and a Review of the Literature.</a></h3>
+        <div class="byline">Oxenham A, Stevenson A</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):247-257</div>
+        <div class="topics"><span class="topic">Hair &amp; nails</span></div>
+        <div class="abs"><div class="asec"><p>Frontal fibrosing alopecia (FFA) is a form of cicatricial alopecia that is being increasingly diagnosed in recent years. It predominantly affects post-menopausal women of various ethnic backgrounds, but cases have also been reported in pre-menopausal women and rarely in men. Eleven familial cases of FFA have been published in the literature, with some authors raising speculation about potential genetic predisposition or shared exposure to environmental factors as triggers for the condition. Despite this, there remains a lack of detailed characterisation of the clinical features specific to familial cases of FFA. In this report, we aim to contribute to the understanding of FFA by presenting the first Australian case of familial FFA involving a mother and her daughter, while also attempting to define the clinical distinguishing features in familial FFA and sporadic FFA.</p></div></div>
+        <div class="mesh">MeSH · Female · Humans · Alopecia · Fibrosis · Mothers · Pedigree · Aged · Aged, 80 and over</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14463" target="_blank" rel="noopener">DOI 10.1111/ajd.14463</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40167289/" target="_blank" rel="noopener">PubMed 40167289</a></div>
+      </div></article><article class="entry">
+      <div class="idx">27</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14543" target="_blank" rel="noopener">Informed Consent for Artificial Intelligence in Dermatology: Practicalities and Pitfalls.</a></h3>
+        <div class="byline">O&#39;Malley S, Gale J</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):296-298</div>
+        <div class="topics"><span class="topic">AI / informatics</span><span class="topic">Ethics / practice</span></div>
+        <div class="abs"><div class="asec"><p>Informed consent is a foundational cornerstone of modern healthcare interventions, and the use of artificial intelligence systems is not free from this requirement. A variety of contexts dictate how consent is approached and the level of explanation demanded for artificial intelligence employment, including the use of patient data for clinician support, diagnostics, model training and even autonomous decision making. How these systems are implemented will dictate the burden of detail to be provided, and as such, a robust informed consent process in artificial intelligence utilisation is critical for well-informed patient decisions, which develops trust within such systems in a modern healthcare landscape.</p></div></div>
+        <div class="mesh">MeSH · Artificial Intelligence · Humans · Informed Consent · Dermatology</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14543" target="_blank" rel="noopener">DOI 10.1111/ajd.14543</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40476624/" target="_blank" rel="noopener">PubMed 40476624</a></div>
+      </div></article><article class="entry">
+      <div class="idx">28</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14569" target="_blank" rel="noopener">Linear Focal Elastosis: What We Know From Epidemiological Studies.</a></h3>
+        <div class="byline">Aung T, Noakes R, Kasem K, Murrell DF</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):364-368</div>
+        <div class="topics"><span class="topic">Basic science</span></div>
+        <div class="abs"><div class="asec"><p>Linear focal elastosis (LFE), characterised by horizontal streaks on the lower back, is a dermatological condition with unclear etiopathogenesis and limited epidemiological data. This study synthesises case reports to elucidate demographic patterns, clinical manifestations, and potential associations. A literature search across PubMed, Embase, Ovid and ResearchGate identified 37 relevant articles, yielding 80 cases after excluding duplicates and irrelevant articles. In analysis, the male-to-female ratio for LFE was 5:1, with a mean age of 39 years. Cases were more common among adolescents and older adults (age ≥ 60), with the majority occurring in pubertal adolescents. No racial predilection was observed. The lower back was the most frequently affected site, with rare cases involving other body parts. Some cases were associated with growth spurts or strenuous exercise, although the etiopathogenesis remains speculative. LFE may be underreported due to its asymptomatic nature and resemblance to other skin conditions, particularly striae distensae. Further research is required to clarify its pathogenesis and explore potential treatment options.</p></div></div>
+        <div class="mesh">MeSH · Humans · Female · Male · Adolescent · Adult · Middle Aged · Skin Diseases · Elastic Tissue · Aged · Young Adult</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14569" target="_blank" rel="noopener">DOI 10.1111/ajd.14569</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40859862/" target="_blank" rel="noopener">PubMed 40859862</a></div>
+      </div></article><article class="entry">
+      <div class="idx">29</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14557" target="_blank" rel="noopener">Real World Side-Effects of Dupilumab: A Narrative Review.</a></h3>
+        <div class="byline">Larney C, Foley P, Wu J, Daniel BS</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):e324-e334</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Real-world use of dupilumab has unveiled a spectrum of side effects that were not fully appreciated in initial clinical trials. While dupilumab remains a highly effective treatment for atopic dermatitis, clinicians must be aware of real-world adverse effects including ocular complications, inflammatory arthritis, psoriasiform eruptions and head and neck dermatitis; as well as reported associations including cutaneous T-cell lymphoma, alopecia areata, vitiligo and weight gain.</p></div></div>
+        <div class="mesh">MeSH · Humans · Antibodies, Monoclonal, Humanized · Dermatitis, Atopic · Vitiligo · Lymphoma, T-Cell, Cutaneous · Arthritis · Alopecia Areata · Drug Eruptions · Eye Diseases · Weight Gain</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14557" target="_blank" rel="noopener">DOI 10.1111/ajd.14557</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40557973/" target="_blank" rel="noopener">PubMed 40557973</a></div>
+      </div></article><h3 class="grp">Systematic reviews <span class="gcount">(3)</span></h3><p class="blurb">Protocol-driven syntheses without pooled estimates.</p><article class="entry">
+      <div class="idx">30</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14546" target="_blank" rel="noopener">A Systematic Review of Cellulitis Guidelines: The Role of Non-Pharmacological Management in Preventing Recurrence.</a></h3>
+        <div class="byline">Jacka J, Sierla R, Kilbreath SL, Dylke ES</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):321-328</div>
+        <div class="topics"><span class="topic">Infection</span></div>
+        <div class="abs"><div class="asec"><p>Cellulitis is a common acute skin and soft tissue infection with high rates of recurrence. Historically, guidelines for care have focused on pharmacological management; however, emerging evidence supports the benefits of non-pharmacological approaches for risk mitigation and recurrence prevention. This review examined best practice guidelines for the management of cellulitis-for the inclusion of recommendations beyond antibiotics to prevent recurrence. A systematic search of seven databases was conducted, including the Guidelines International Network (GIN), the Agency for Healthcare Research and Quality and the Australian National Health and Medical Research Council clinical practice guidelines. Guidelines were included if they addressed lower limb cellulitis, were developed after 2000, published in English, appeared in a peer-reviewed journal and/or were endorsed by a health agency or government body, and contained recommendations for non-pharmacological management. The Appraisal of Guidelines for Research and Evaluation II (AGREE II) tool was used to assess guideline quality. Ten guidelines met the inclusion criteria. Recommendations for non-pharmacological management and recurrence prevention primarily addressed risk factors such as venous disease, oedema, tinea, skin barrier integrity and obesity. However, these recommendations were often brief and lacked actionable strategies for managing local risk factors effectively. Most guidelines scored poorly in the AGREE II assessment, particularly in rigour of development, despite performing well in scope, purpose and clarity. Furthermore, non-pharmacological strategies and recurrence prevention remain underdeveloped. Strengthening the evidence base and incorporating targeted prevention strategies will be essential to improving future guidelines, ultimately enhancing patient outcomes and reducing the burden on healthcare systems. Trial Registration: Registered with Open Science Framework OSF: osf-registrations-7wkvf-v1.</p></div></div>
+        <div class="mesh">MeSH · Humans · Cellulitis · Practice Guidelines as Topic · Secondary Prevention · Recurrence</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14546" target="_blank" rel="noopener">DOI 10.1111/ajd.14546</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40530782/" target="_blank" rel="noopener">PubMed 40530782</a></div>
+      </div></article><article class="entry">
+      <div class="idx">31</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14560" target="_blank" rel="noopener">Management Strategies for Generalised Granuloma Annulare: A Systematic Review of Current and Emerging Therapies.</a></h3>
+        <div class="byline">Bettolini L, Maione V, Carugno A, Stabile G, Podo Brunetti A, … Bighetti S</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):329-337</div>
+        <div class="topics"><span class="topic">Granulomatous</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Generalised Granuloma Annulare (GGA) is a chronic inflammatory skin disorder with no standard treatment. Since the last review in 2013, new treatments and varied responses have highlighted the need for an updated synthesis to guide clinical decisions. This systematic review aimed to evaluate the epidemiology, comorbidities and treatment outcomes in patients with GGA, synthesising evidence from published studies to provide insights into both conventional and emerging therapeutic strategies. A systematic literature search was conducted in CENTRAL, Embase and PubMed, following PRISMA guidelines. Studies published in English, French or Spanish up to January 15, 2024, were included. Data extraction focused on patient demographics, comorbidities, treatment regimens and therapeutic outcomes. A total of 689 patients were included. The mean age of patients was 52.8 years, with a female predominance (72.6%). Based on this systematic review, we propose a stepwise approach: first-line treatment includes hydroxychloroquine and phototherapy (PUVA &gt; UVA1 &gt; nb-UVB). Oral corticosteroids along with high-potency topical steroids or calcineurin inhibitors may be used in extensive or rapidly progressive disease or as bridging therapy pending slower-acting agents. Sulfones are second-line, with oral retinoids (e.g., isotretinoin) as alternatives if contraindicated. For refractory cases, off-label anti-TNF-α agents or JAK inhibitors are recommended, with methotrexate or cyclosporine as valid alternatives. This largest systematic review of GGA treatments offers an evidence-based clinical framework. While steroids and phototherapy remain standard, emerging options like JAK inhibitors and biologics show promise for refractory cases. Tailored, multimodal strategies may improve outcomes, though further trials are needed to standardise guidelines.</p></div></div>
+        <div class="mesh">MeSH · Humans · Granuloma Annulare · Hydroxychloroquine · Dermatologic Agents · Adrenal Cortex Hormones · PUVA Therapy · Calcineurin Inhibitors · Janus Kinase Inhibitors · Immunosuppressive Agents · Glucocorticoids · Retinoids</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14560" target="_blank" rel="noopener">DOI 10.1111/ajd.14560</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40586485/" target="_blank" rel="noopener">PubMed 40586485</a></div>
+      </div></article><article class="entry">
+      <div class="idx">32</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Systematic review</span>
+          <span class="jchip">AJD 66(6) · September 2025 · Concise Report</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14548" target="_blank" rel="noopener">Efficacy and Safety of Phosphodiesterase-4 Inhibitors in Vitiligo: A Systematic Review.</a></h3>
+        <div class="byline">Hanspal R, Rijal H, Mukovozov I</div>
+        <div class="cite">Australas J Dermatol. 2025;66(6):e378-e381</div>
+        <div class="topics"><span class="topic">Pigmentary</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Concise Report, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14548" target="_blank" rel="noopener">DOI 10.1111/ajd.14548</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40802479/" target="_blank" rel="noopener">PubMed 40802479</a></div>
+      </div></article><h3 class="grp">Meta-analyses <span class="gcount">(4)</span></h3><p class="blurb">Systematic reviews with quantitative pooling.</p><article class="entry">
+      <div class="idx">33</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14490" target="_blank" rel="noopener">HER2 Expression and Its Correlation With Clinicopathological Features and Prognosis in Extramammary Paget&#39;s Disease: A Systematic Review and Meta-Analysis.</a></h3>
+        <div class="byline">Ramírez-Clavijo S, Mendivelso-González DF, Monroy R, de la Peña J, Rubiano W, … Parra-Medina R</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):279-288</div>
+        <div class="topics"><span class="topic">Skin cancer</span></div>
+        <div class="abs"><div class="asec"><p>Extramammary Paget&#39;s disease (EMPD) is a neoplastic condition primarily in the anogenital region. A subset of cases exhibits HER2 expression, generally associated with poor prognosis. This paper aimed to systematically explore the potential correlation between HER2 expression, clinicopathological features and prognosis in EMPD.</p></div><div class="asec"><p>A systematic search (1990-2023) was conducted via BVS, Embase, Google Scholar, PubMed, Scopus and Web of Science. A meta-analysis with odds ratios (ORs) and confidence intervals (CIs) was performed.</p></div><div class="asec"><p>A total of 954 patients from 16 studies were included. The median age at diagnosis was 70.3 years, with the majority being men (71.8%). The penoscrotal area was the most common site of presentation. HER2 positivity was 25.6%, and the HER2-low proportion was 38.5%. Positive HER2 expression was correlated with EMPD dermal invasion (OR = 4.01, 95% CI: 2.11-7.62) and the presence of lymph node metastasis (OR = 3.84, 95% CI: 1.59-9.30), but not with the presence of secondary malignancies or the female gender. Gene expression among patients with IHC 2+ and 3+ was correlated with tumour dermal invasion (pooled OR = 6.43, 95% CI: 1.23-33.57). No correlation was found between HER2-low expression and dermal invasion, lymph node metastasis or the presence of secondary primary malignancies.</p></div><div class="asec"><p>HER2 was expressed in a significant proportion in EMPD with significant correlations, suggesting its potential role as a prognostic biomarker.</p></div></div>
+        <div class="mesh">MeSH · Humans · Paget Disease, Extramammary · Erb-b2 Receptor Tyrosine Kinases · Prognosis · Lymphatic Metastasis · Skin Neoplasms · Female · Male · Biomarkers, Tumor</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14490" target="_blank" rel="noopener">DOI 10.1111/ajd.14490</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40231791/" target="_blank" rel="noopener">PubMed 40231791</a></div>
+      </div></article><article class="entry">
+      <div class="idx">34</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Concise Report</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14534" target="_blank" rel="noopener">Systematic Review and Meta-Analysis of the Efficacy and Risk of Adverse Events of Dupilumab in the Treatment of Prurigo Nodularis.</a></h3>
+        <div class="byline">Titou H, Elkhachine Y, El Benaye J</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):312-318</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs none">No abstract indexed in PubMed. Published as Concise Report, so screen from the full text.</div>
+        
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14534" target="_blank" rel="noopener">DOI 10.1111/ajd.14534</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40781727/" target="_blank" rel="noopener">PubMed 40781727</a></div>
+      </div></article><article class="entry">
+      <div class="idx">35</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14485" target="_blank" rel="noopener">Safety and Efficacy of Non-Steroidal Topical Aryl Hydrocarbon Receptor Agonists for the Treatment of Atopic Dermatitis: A Systematic Review and Meta-Analysis of Randomised Controlled Trials.</a></h3>
+        <div class="byline">Cevallos-Cueva M, Neto CAML, Martani D, Ghanem L, Sardinha CA, … Chien P</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):e249-e259</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Current first-line topical treatments for atopic dermatitis (AD) are often limited by concerns related to age, systemic absorption, especially when applied to large body surface areas or under maximal usage conditions and undesirable adverse events (AEs), highlighting the need for alternative therapies.</p></div><div class="asec"><p>We performed a systematic review and meta-analysis of seven randomised controlled trials (RCT) comparing topical aryl hydrocarbon receptor agonists (TAHRA), including tapinarof and benvitimod cream, to vehicle at different concentrations and application frequencies in patients with AD, which evaluated outcomes such as Investigator Global Assessment (IGA) scores/Validated Investigator&#39;s Global Assessment (vIGA), the Eczema Area and Severity Index (EASI-75), change from baseline in body surface area (BSA) and pruritus score (PS) and safety profiles.</p></div><div class="asec"><p>A total of 1631 patients, 1086 received TAHRA, while 545 received vehicle. Overall, TAHRA led to a significant improvement in the IGA/vIGA scores (RR 2.38; 95% CI 1.68 to 3.37; p &lt; 0.00001), EASI-75 (RR 2.94; 95% CI 2.07 to 4.17; p &lt; 0.00001). Similar findings were observed for mean change from baseline in BSA% (MD -6.08; 95% CI -8.00 to -4.16; p &lt; 0.00001), and PS (Std MD -0.90; 95% CI -1.41 to -0.39; p = 0.0006). The incidence of AEs was significantly higher in the TAHRA group (RR 1.48; 95% CI 1.19 to 1.85; p = 0.0005). We found no significant difference in the incidence of serious adverse events (SAEs) (RR 1.51; 95% CI 0.34 to 6.64; p = 0.59). Treatment-emergent adverse events (TEAEs), such as folliculitis, were more frequent in the TAHRA group (RR 8.06; 95% CI 2.75 to 23.60; p = 0.0001).</p></div><div class="asec"><p>Our findings support the efficacy of TAHRA among different metrics with minimal and tolerable AEs and its use as a valuable new non-steroidal option for the treatment of AD.</p></div></div>
+        <div class="mesh">MeSH · Humans · Dermatitis, Atopic · Randomized Controlled Trials as Topic · Receptors, Aryl Hydrocarbon · Resorcinols · Stilbenes</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14485" target="_blank" rel="noopener">DOI 10.1111/ajd.14485</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40192236/" target="_blank" rel="noopener">PubMed 40192236</a></div>
+      </div></article><article class="entry">
+      <div class="idx">36</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">AJD 66(5) · August 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1111/ajd.14526" target="_blank" rel="noopener">The Incidence and Management of TNF-α Inhibitor Induced Paradoxical Psoriasis in Children With Inflammatory Bowel Disease: A Systematic Review and Meta-Analysis.</a></h3>
+        <div class="byline">Gaston J, Ermongkonchai T, Chen A, Lee S, Lai FYX</div>
+        <div class="cite">Australas J Dermatol. 2025;66(5):e260-e270</div>
+        <div class="topics"><span class="topic">Psoriasis</span><span class="topic">Paediatric</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Paradoxical psoriasis is a well-described phenomenon following treatment with Tumour Necrosis Factor alpha (TNF-α) inhibitors in adult patients with Inflammatory Bowel Disease (IBD). The incidence and optimal treatment strategies are not well described in children with IBD. This subgroup of patients is disproportionately impacted by TNF-α inhibitor-induced psoriatic eruptions. Our systematic review and meta-analyses aims to describe the incidence, presentation, and management options for TNF-αinhibitor-induced psoriasis in paediatric patients with IBD. A systematic literature search was conducted using Medline, Embase and Cochrane databases for studies published up to February 2025. Retrospective cohort studies (n = 16), prospective cohort study (n = 1), and a cross-sectional study (n = 1) met inclusion criteria. Studies focusing on patients &gt; 18 years or TNF-α inhibitors used for non-IBD conditions were excluded. A total of 3349 paediatric patients with IBD treated with TNF-α inhibitors were analysed, with 255 (7.6%) developing paradoxical psoriasis. Meta-analysis of 13 studies meeting sample size criteria yielded a pooled incidence of 6.8% (95% CI: 0.04-0.10). Infliximab (IFX) accounted for 151 (79.1%) of cases, whereas adalimumab (ADA) contributed to 40 (20.9%) cases. The median time to clinical eruption was 15.0 months (12.0-18.0). Among affected patients, 22.3% (51/229) discontinued their prescribed TNF-α inhibitor and 5.7% (13/229) were subsequently switched to an alternative TNF-α inhibitor. Ustekinumab (UST) was the most common non-TNF-α alternative (14/94). TNF-α inhibitor-induced psoriasis is a common adverse effect in paediatric IBD, with a significant proportion of cases necessitating treatment discontinuation. Long-term outcomes following a switch to non-TNF-α biologics remain unclear, highlighting the need for further prospective studies.</p></div></div>
+        <div class="mesh">MeSH · Humans · Psoriasis · Incidence · Child · Inflammatory Bowel Diseases · Infliximab · Adalimumab · Tumor Necrosis Factor-alpha · Tumor Necrosis Factor Inhibitors · Drug Eruptions</div>
+        <div class="links"><a href="https://doi.org/10.1111/ajd.14526" target="_blank" rel="noopener">DOI 10.1111/ajd.14526</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40400050/" target="_blank" rel="noopener">PubMed 40400050</a></div>
+      </div></article>
+    </section>
+<section id="bjd">
+      <div class="sechead"><div class="secnum">3</div>
+        <div><h2>British Journal of Dermatology</h2><div class="secscope">193(2) (August 2025) · 193(3) (September 2025) &nbsp;·&nbsp; 9 papers</div></div></div><h3 class="grp">Guidelines &amp; consensus statements <span class="gcount">(2)</span></h3><p class="blurb">Formal recommendations: Delphi panels, national guideline summaries and consensus / position statements.</p><article class="entry">
+      <div class="idx">37</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Guidelines</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf191" target="_blank" rel="noopener">Management of oesophageal strictures in inherited epidermolysis bullosa: a clinical practice guideline.</a></h3>
+        <div class="byline">El Hachem M, Caldaro T, Lara-Corrales I, Pope E, Jones R, … De Angelis P</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):394-404</div>
+        <div class="topics"><span class="topic">Genodermatosis</span><span class="topic">Paediatric</span></div>
+        <div class="abs"><div class="asec"><p>Inherited epidermolysis bullosa (EB) is a group of rare and complex genetic disorders characterized by fragility of the skin and mucous membranes. Specifically, the gastrointestinal tract is commonly involved with a range of complications, one of the most disabling being oesophageal strictures (OS). OS manifest with progressive dysphagia, which in turn contributes to malnutrition, chronic anaemia and growth delay, with high impact on the quality of life of patients and their families. DEBRA International has supported the development of clinical practice guidelines (CPGs) for different aspects of EB care. The present CPG aims to provide healthcare professionals and affected individuals and their caregivers with recommendations on diagnostic procedures, preventive measures and treatment of OS. An international multidisciplinary panel comprising clinical experts and patient and public involvement (PPI) representatives developed the CPG, following an international PPI survey and literature review. The GRADE methodology was adopted to define PICO (population, intervention, comparison, outcome) questions, implement a literature appraisal process and prepare recommendations. Three recommendations are focused on OS diagnosis, and seven on preventive nonpharmacological (diet, oral care and therapeutic education) and pharmacological measures (topical corticosteroids) and treatment procedures. Treatment focuses particularly on oesophageal dilatation and how to delay and manage disease relapses. It is expected that this CPG will contribute to improving the quality and equity of care for individuals affected with EB, and will hopefully foster clinical research to increase evidence, in particular on noninvasive OS treatment to prevent complications and delay relapses.</p></div></div>
+        <div class="mesh">MeSH · Humans · Esophageal Stenosis · Epidermolysis Bullosa · Quality of Life · Dilatation · Deglutition Disorders</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf191" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf191</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40393138/" target="_blank" rel="noopener">PubMed 40393138</a></div>
+      </div></article><article class="entry">
+      <div class="idx">38</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-guide">Guideline / Consensus</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Guidelines</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf199" target="_blank" rel="noopener">ISCL/EORTC-CLTG/USCLC recommendations for the diagnosis, staging and treatment of early-stage paediatric mycosis fungoides: a modified Delphi consensus. Part one: diagnosis and staging.</a></h3>
+        <div class="byline">Hodak E, Amitay-Laish I, Bagot M, Battistella M, Ben Amitai D, … Assaf C</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):405-414</div>
+        <div class="topics"><span class="topic">Skin cancer</span><span class="topic">Paediatric</span></div>
+        <div class="abs"><div class="asec"><p>Mycosis fungoides (MF) is considered rare in children and adolescents. Accumulating experience indicates that compared with adult patients, almost all paediatric patients with MF are diagnosed at an early stage of disease, exhibit higher rates of atypical presentations and follow a notably indolent course. Despite the need for special staging/investigations specific for children and adolescents, the staging of paediatric MF is currently based primarily on standard practice in adults. The aim of this work was to develop staging recommendations specifically designed for MF in children and adolescents, on behalf of the three largest societies for cutaneous lymphomas, the International Society for Cutaneous Lymphomas, the European Organisation for Research and Treatment of Cancer - Cutaneous Lymphoma Tumor Group, and the United States Cutaneous Lymphoma Consortium. We developed this guideline through an international expert consensus process and in accordance with the EQUATOR Network&#39;s recommendations for guideline development. A modified Delphi process was conducted, using questionnaires covering topics including the definition, characteristics and staging of paediatric MF. Two rounds of expert feedback were conducted, with an additional hybrid consensus meeting. We reached a consensus that the term &#39;paediatric MF&#39; should be reserved for MF diagnosed at ≤ 18 years of age. Panellists specified the unique clinical characteristics of paediatric MF, including a high prevalence of hypopigmented and folliculotropic variants, and reached a consensus on the indolent nature of the disease during childhood and adolescence with rare progression to advanced stage. The consensus reached recommends that while the staging approach is largely similar to that in adults, imaging for early-stage paediatric MF should rely on ultrasound of the lymph nodes if indicated, rather than computed tomography with contrast or integrated with positron emission tomography. Along with this, clinicians should be aware that in children, palpable lymph nodes are common owing to the increased incidence of infectious diseases. In summary, this guideline addresses the major clinical characteristics of paediatric MF, which differ from those in adults, and provides practical staging recommendations considering the safety implications specific for this age group.</p></div></div>
+        <div class="mesh">MeSH · Humans · Mycosis Fungoides · Neoplasm Staging · Child · Skin Neoplasms · Adolescent · Delphi Technique</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf199" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf199</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40420841/" target="_blank" rel="noopener">PubMed 40420841</a></div>
+      </div></article><h3 class="grp">Narrative &amp; clinical reviews <span class="gcount">(3)</span></h3><p class="blurb">Invited state-of-the-art syntheses from each journal's review section.</p><article class="entry">
+      <div class="idx">39</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">BJD 193(2) · August 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf141" target="_blank" rel="noopener">Childhood mastocytosis: challenges and potential shortfalls in current disease classification.</a></h3>
+        <div class="byline">Torrelo A, Colmenero I, Alvarez-Twose I</div>
+        <div class="cite">Br J Dermatol. 2025;193(2):203-211</div>
+        <div class="topics"><span class="topic">Mastocytosis</span><span class="topic">Paediatric</span></div>
+        <div class="abs"><div class="asec"><p>The skin is the organ most frequently involved in childhood mastocytosis. In this article, we present a comprehensive update on recent relevant data in the field of childhood mastocytosis, and critically review the drawbacks of its current classification and skin manifestations. We hypothesize that two main types of childhood mastocytosis can be recognized, with relevant implications for the outcome, management and understanding of the disease.</p></div></div>
+        <div class="mesh">MeSH · Humans · Child · Mastocytosis, Cutaneous · Urticaria Pigmentosa</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf141" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf141</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40243004/" target="_blank" rel="noopener">PubMed 40243004</a></div>
+      </div></article><article class="entry">
+      <div class="idx">40</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf054" target="_blank" rel="noopener">Palmoplantar epidermal differentiation disorders: a new classification toward pathogenesis-based therapy.</a></h3>
+        <div class="byline">Sprecher E, Ishida-Yamamoto A, Schwartz J, Akiyama M, Aldwin-Easton M, … O&#39;Toole EA</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):364-380</div>
+        <div class="topics"><span class="topic">Genodermatosis</span></div>
+        <div class="abs"><div class="asec"><p>More than 50 palmoplantar epidermal differentiation disorders (pEDDs) have been reported in the literature. Various descriptors have been used to name these conditions, including clinical features often designated as acronyms or evocative terms, and names of clinicians and of geographical locations. Not only has this nomenclature been criticized for its lack of methodological consistency, but it has also progressively lost its clinical relevance. Indeed, the advent of a wide range of pathogenesis-targeting therapeutic solutions for these disorders has raised the need for a novel classification of pEDDs, based on their causative genetic defects, to provide clinicians with genuine therapeutic guidance. Here, we present a novel classification scheme for pEDDs and its application in the form of a practical algorithm for the rapid diagnosis of pEDDs.</p></div></div>
+        <div class="mesh">MeSH · Humans · Algorithms · Epidermis · Hand Dermatoses · Foot Dermatoses</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf054" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf054</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40106577/" target="_blank" rel="noopener">PubMed 40106577</a></div>
+      </div></article><article class="entry">
+      <div class="idx">41</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-review">Review</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf178" target="_blank" rel="noopener">Targeting the MAPK pathway for NRAS mutant melanoma: from mechanism to clinic.</a></h3>
+        <div class="byline">Wang Y, Xu G, Xia H</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):381-393</div>
+        <div class="topics"><span class="topic">Skin cancer</span><span class="topic">Basic science</span></div>
+        <div class="abs"><div class="asec"><p>Mutant NRAS is the second-most common type of mutation in melanoma. The prognosis in patients with NRAS mutant melanoma is poor, and effective targeted treatment strategies are still lacking. Mutant NRAS mainly acts by activating RAF-MEK-ERK signalling to promote carcinogenesis in melanoma. In recent years, significant clinical advances have been made in targeting the NRAS-MAPK (mitogen-activated protein kinase) pathway, with novel therapies such as the MEK inhibitor tunlametinib and a combination therapy of the pan-RAF inhibitor naporafenib + trametinib leading the way. In this review, we systematically summarize the recent advances made in the direct targeting of mutant NRAS proteins and their downstream RAF and MEK proteins, as well as targeting the MAPK pathway in combination with other therapeutic targets, including immunotherapy, to treat NRAS mutant melanoma. Additionally, we discuss the current issues and emerging countermeasures related to targeted therapy for NRAS mutant melanoma.</p></div></div>
+        <div class="mesh">MeSH · Humans · Melanoma · GTP Phosphohydrolases · Membrane Proteins · Mutation · Skin Neoplasms · MAP Kinase Signaling System · Molecular Targeted Therapy · Protein Kinase Inhibitors · Antineoplastic Combined Chemotherapy Protocols · Immunotherapy</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf178" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf178</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40341941/" target="_blank" rel="noopener">PubMed 40341941</a></div>
+      </div></article><h3 class="grp">Meta-analyses <span class="gcount">(2)</span></h3><p class="blurb">Systematic reviews with quantitative pooling.</p><article class="entry">
+      <div class="idx">42</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">BJD 193(2) · August 2025 · Systematic Review</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf151" target="_blank" rel="noopener">The association between hidradenitis suppurativa and psychiatric disease: a systematic review and meta-analysis.</a></h3>
+        <div class="byline">Folkmann CL, Pinborg EH, Iversen M, Rønnstad ATM, Holgersen N, … Christensen MO</div>
+        <div class="cite">Br J Dermatol. 2025;193(2):212-220</div>
+        <div class="topics"><span class="topic">Hidradenitis</span><span class="topic">Psychodermatology</span></div>
+        <div class="abs"><div class="asec"><p>Hidradenitis suppurativa (HS) has been associated with increased risk of psychiatric disease (PD) in patients with HS compared with the general population. To our knowledge, no recent comprehensive examination of the prevalence and association between HS and PD has been undertaken.</p></div><div class="asec"><p>To investigate the association between HS and PD.</p></div><div class="asec"><p>A systematic review and meta-analysis was performed using standard methodologies and was reported in accordance with the PRISMA guidelines. The medical databases PubMed, Embase, PsycINFO, Cochrane, Web of Science and the Directory of Open Access Journals were searched. Studies were included if addressing HS and any PD. Study quality was assessed through the Newcastle-Ottawa Scale (NOS). Certainty of evidence was assessed using the GRADE approach.</p></div><div class="asec"><p>A total of 83 studies were included in the narrative analysis of which 76 were included in the quantitative analysis. This study found that patients with HS had higher risk of depression, pooled prevalence 20.9% vs. 8.4%, odds ratio (OR) 2.06 [95% confidence interval (CI) 1.75-2.41], P &lt; 0.001; anxiety, 19.3% vs. 8.1%, OR 1.91 (95% CI 1.64-2.22), P &lt; 0.001; bipolar disorder, 1.0% vs. 0.06%, OR 3.68 (95% CI 1.11-12.20), P = 0.03; schizophrenia, 2.7% vs. 1.2%, OR 2.00 (95% CI 1.21-3.30), P = 0.007; substance use disorder 6.0% vs. 3.1%, OR 3.58 (95% CI 2.01-6.37), P &lt; 0.001; alcohol abuse 4.0% vs. 1.8%, OR 1.88 (95% CI 0.98-3.58), P = 0.06, and completed suicide 0.7% vs. 0.4%, OR 1.56 (95% CI 1.14-2.14), P = 0.005 when compared with the general population. PD was more prevalent in female patients with HS (28.0%, 95% CI 22.5-34.3) compared with males (21.1%, 95% CI 15.6-27.9). Depression increased with increasing Hurley stage [stage I, 19.5% (95% CI 8.3-39.4); stage II, 20.9% (95% CI 11.5-34.9) and stage III, 35.3% (95% CI 16.1-60.8), P &lt; 0.001]. North American studies had higher pooled prevalence of PD compared with European studies [35.4% (95% CI 13.6-65.6) vs. 21.2% (95% CI 11.9-34.7)]. Adults had higher pooled prevalence of depression compared with children [19.1% (95% CI 12.4-28.3) vs. 9.5% (95% CI 6.3-14.1)]. Half of included studies were assessed as high quality (NOS ≥ 7).</p></div><div class="asec"><p>This study found a significantly higher risk of several PDs in patients with HS compared with the general population. Our findings reflect a need to raise awareness of psychiatric illnesses in patients with HS to improve patients&#39; quality of life.</p></div></div>
+        <div class="mesh">MeSH · Humans · Hidradenitis Suppurativa · Prevalence · Mental Disorders · Risk Factors</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf151" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf151</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40251988/" target="_blank" rel="noopener">PubMed 40251988</a></div>
+      </div></article><article class="entry">
+      <div class="idx">43</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Meta-analysis</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Research Letter</span><span class="flag brief">Brief report</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf166" target="_blank" rel="noopener">Living network meta-analysis to compare nemolizumab against other available targeted systemic treatments for atopic dermatitis.</a></h3>
+        <div class="byline">Drucker AM, Walwyn C, Chu C, Yiu ZZN, Rochwerg B, … Flohr C</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):548-552</div>
+        <div class="topics"><span class="topic">Eczema / AD</span><span class="topic">Drug safety</span></div>
+        <div class="abs"><div class="asec"><p>Nemolizumab is a new biologic approved to treat atopic dermatitis. In this perspective piece, we use results from our living systematic review and network meta-analysis to provide perspective on the relative efficacy of nemolizumab compared with other approved targeted systemic treatments.</p></div></div>
+        
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf166" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf166</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40334148/" target="_blank" rel="noopener">PubMed 40334148</a></div>
+      </div></article><h3 class="grp">Scoping reviews <span class="gcount">(2)</span></h3><p class="blurb">Broad maps of the evidence landscape and its gaps.</p><article class="entry">
+      <div class="idx">44</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Scoping review</span>
+          <span class="jchip">BJD 193(2) · August 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf152" target="_blank" rel="noopener">Outcome measurement in pemphigus clinical research: a scoping review on heterogeneity in outcome reporting and definitions.</a></h3>
+        <div class="byline">Hiel MAJ, Korte EWH, Tedbirt B, Bolling MC, Meijer JM, … Joly P</div>
+        <div class="cite">Br J Dermatol. 2025;193(2):221-231</div>
+        <div class="topics"><span class="topic">Autoimmune / bullous</span></div>
+        <div class="abs"><div class="asec"><p>Pemphigus is an autoimmune bullous disease (AIBD) and has two main subtypes, pemphigus vulgaris (PV) and pemphigus foliaceus (PF). For adequate interpretation and comparison of clinical studies in pemphigus, it is essential to have outcomes and outcome measurement instruments (OMIs) that are well-defined, uniform and relevant.</p></div><div class="asec"><p>To provide a comprehensive overview of previously reported outcomes and OMIs in pemphigus clinical research over the past two decades.</p></div><div class="asec"><p>A systematic literature search was performed in the databases MEDLINE, Embase, CINAHL, PsycINFO, Cochrane CENTRAL, Web of Science and trial registries covering the period between January 2002 and December 2023. Clinical trials, prospective cohort studies and systematic reviews were included. Retrospective studies were excluded. All identified outcomes and their respective OMIs were grouped into outcome domains and areas.</p></div><div class="asec"><p>From all the included studies (n = 205), a total of 1502 outcomes were extracted verbatim, categorized in 55 outcome domains and 11 outcome areas. We found a gradual increase in the number of published trials over the past two decades. The included studies mainly focused on &#39;clinical response&#39; (92%), &#39;safety monitoring&#39; (75%) and &#39;immune response&#39; (61%). &#39;Quality of life&#39; was sparsely reported (12%). Heterogeneity of reported outcomes was observed across all study designs. Within the outcome area &#39;clinical response&#39;, the proportion of defined outcomes based on the 2008 consensus statement has not been consistent over time. However, four recent clinical trials used primary endpoints based on the 2008 consensus definitions. Moreover, a broad spectrum of outcome measurement instruments (n = 65) was reported.</p></div><div class="asec"><p>This review showed a wide variety in reported outcomes and OMIs in pemphigus clinical research over the past two decades. Despite standardization efforts, most studies still lack well-defined, consistent and relevant outcomes and OMIs. However, a positive trend is emerging as four recent trials did use consensus-based definitions and patient-focused OMIs. Nevertheless, the outcomes are overly stringent, lack patient-centeredness, and do not include intermediate endpoints. Therefore, refinement of the 2008 expert consensus statement through collaborative efforts of all stakeholders is essential to promote uniformity in future pemphigus outcome measurement and to advance pemphigus drug development.</p></div></div>
+        <div class="mesh">MeSH · Pemphigus · Humans · Outcome Assessment, Health Care · Treatment Outcome · Biomedical Research · Clinical Trials as Topic</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf152" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf152</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40249769/" target="_blank" rel="noopener">PubMed 40249769</a></div>
+      </div></article><article class="entry">
+      <div class="idx">45</div>
+      <div class="body">
+        <div class="tagline"><span class="badge b-sr">Scoping review</span>
+          <span class="jchip">BJD 193(3) · September 2025 · Review Article</span></div>
+        <h3><a href="https://doi.org/10.1093/bjd/ljaf153" target="_blank" rel="noopener">Outcome measures for interdisciplinary care in immune-mediated inflammatory skin diseases: a scoping review.</a></h3>
+        <div class="byline">Lemarcq L, Reynaert V, Van den Steen E, Evers-Lebrun C, Marinović B, … Gutermuth J</div>
+        <div class="cite">Br J Dermatol. 2025;193(3):415-423</div>
+        <div class="topics"><span class="topic">Psoriasis</span><span class="topic">Eczema / AD</span></div>
+        <div class="abs"><div class="asec"><p>There is a growing trend towards interdisciplinary care (IC) for the management of immune-mediated inflammatory skin diseases (skIMIDs). However, an overview of instruments used to evaluate whether IC is superior to usual care is currently lacking.</p></div><div class="asec"><p>This scoping review aims to gain insight into clinician- and patient-reported outcome measures (ClinROMs and PROMs) used in IC for skIMIDs.</p></div><div class="asec"><p>A comprehensive literature search was conducted by screening PubMed, Web of Science and Embase databases from their inception until October 2024. To be eligible, studies needed to have investigated IC for skIMIDs involving dermatologists, and have reported either ClinROMs or PROMs. Two independent reviewers screened all records by title, abstract and full text, with conflicts resolved by a third reviewer.</p></div><div class="asec"><p>Fourteen studies were included in this review. Nine investigated IC for psoriasis (PsO), four for atopic dermatitis (AD) and one for hidradenitis suppurativa. Six PsO studies examined combined dermatology-rheumatology clinics, while four studies explored collaborations with psychiatrists or psychologists for PsO or AD. The remaining IC models were diverse. A total of 49 different ClinROMs and PROMs were reported across the included studies, with 38 being reported by only one study. Except for the Dermatology Life Quality Index (used by 12 studies), body surface area (used by four studies), Psoriasis Area and Severity Index (used by all PsO studies), and Eczema Area and Severity Index or SCORing Atopic Dermatitis (used by all AD studies), the reported ClinROMs and particularly PROMs vary widely.</p></div><div class="asec"><p>Although several studies describe IC models for skIMIDs, few investigated their impact on ClinROMs or PROMs. The heterogeneous outcomes used pose a challenge for comparison across studies. This review highlights the need for consensus on a core set of outcome measures for IC in skIMIDs to create a common language among the healthcare providers involved, and enhance comparability between studies. Implementing standardized outcome measures for IC in skIMIDs could contribute to the development of evidence-based guidelines and ultimately, improve patient care.</p></div></div>
+        <div class="mesh">MeSH · Humans · Patient Reported Outcome Measures · Patient Care Team · Dermatology · Skin Diseases · Psoriasis · Outcome Assessment, Health Care · Dermatitis, Atopic</div>
+        <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf153" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf153</a>
+          &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40249773/" target="_blank" rel="noopener">PubMed 40249773</a></div>
+      </div></article>
+    </section>
+
+<footer>
+  <p>Bibliographic data © the respective publishers and indexed by PubMed; cite the primary source.
+  Abstracts are reproduced from PubMed for screening purposes. Papers published as brief reports,
+  research letters or correspondence are flagged <span class="flag brief">Brief report</span>. Several
+  carry no PubMed abstract and must be screened from the full text.</p>
+</footer>
+<div id="jccredit">
+<style>
+#jccredit{margin:26px 0 0;padding:15px 0 2px;border-top:1px solid;opacity:.5;text-align:center;
+ font-family:'IBM Plex Mono','DM Sans',ui-monospace,SFMono-Regular,monospace;
+ font-size:10px;letter-spacing:.15em;text-transform:uppercase;line-height:1.7}
+#jccredit b{font-weight:600;letter-spacing:.12em}
+#jccredit a{color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .18s}
+#jccredit a:hover{border-bottom-color:currentColor}
+#jccredit i{font-style:normal;opacity:.8}
+@media print{#jccredit{opacity:.65}}
+</style>
+Compiled by <a href="https://www.linkedin.com/in/yagizalpaksoy/" target="_blank" rel="noopener"><b>Dr Yagiz Aksoy</b></a> <i>MD&nbsp;PhD</i>
+</div>
+</div></body></html>
