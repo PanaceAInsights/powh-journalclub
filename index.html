@@ -117,13 +117,13 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-si
 #jcnav .repo a{padding:6px 12px;border-radius:99px;color:var(--n-dim);font-size:12.5px;transition:all .16s}
 #jcnav .repo a:hover{background:rgba(255,255,255,.08);color:var(--n-fg)}
 @media(max-width:660px){#jcnav .repo{margin-left:0;width:100%;padding:0 0 10px}#jcnav .jcn{gap:0 14px}}
-@media print{#jcnav{display:none!important}}
+@media(max-width:660px){#jcnav .tabs{max-width:100%;overflow-x:auto}#jcnav .tabs a{padding:9px 10px;white-space:nowrap}#jcnav .tabs a:first-child{padding-left:0}}@media print{#jcnav{display:none!important}}
 </style>
 <div class="jcn">
   <a class="brand" href="./"><b>POWH Dermatology</b> <i>Journal Club</i></a>
   <div class="tabs">
     <a href="jul26/">Jul 2026</a>
-    <a href="aug26/">Aug 2026</a><a href="sep26/">Sep 2026</a>
+    <a href="aug26/">Aug 2026</a><a href="sep26/">Sep 2026</a><a href="oct26/">Oct 2026</a>
   </div>
   <div class="repo"><a href="https://github.com/PanaceAInsights/powh-journalclub" target="_blank" rel="noopener">Source ↗</a></div>
 </div>
@@ -137,10 +137,10 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-si
     reading list and the underlying dataset for every meeting.</div>
   <div class="rule"></div>
   <div class="dateline">
-    <span><b>3</b> editions</span>
-    <span><b>143</b> papers indexed</span>
+    <span><b>4</b> editions</span>
+    <span><b>181</b> papers indexed</span>
     <span>Source <b>PubMed / MEDLINE</b></span>
-    <span>Updated <b>30 Aug 2026</b></span>
+    <span>Updated <b>18 Oct 2026</b></span>
   </div>
 </header>
 
@@ -148,6 +148,41 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-si
 
 <article class="ed now">
   <div class="pill">Next meeting</div>
+  <div class="top">
+    <div class="no">10</div>
+    <div class="head">
+      <div class="when">October 2026</div>
+      <h2><a href="oct26/">CME, Reviews &amp; Guidelines</a></h2>
+      <div class="theme">Everything instructional from three journals, Oct–Nov 2025 issues, now with a one-paper-at-a-time triage mode.</div>
+    </div>
+  </div>
+  <div class="figs">
+    <div class="fig"><div class="n">38</div><div class="l">papers</div></div>
+    <div class="fig"><div class="n">6</div><div class="l">issues</div></div>
+    <div class="fig"><div class="n">3</div><div class="l">journals</div></div>
+    <div class="fig"><div class="n">31</div><div class="l">abstracts</div></div>
+  </div>
+  <div class="mix">
+    <span class="tag t-cme">4 CME</span>
+    <span class="tag t-guide">6 Guidelines &amp; consensus</span>
+    <span class="tag t-review">13 Reviews</span>
+    <span class="tag t-sr">15 Systematic, meta &amp; scoping reviews</span>
+  </div>
+  <div class="issues">
+    <div class="iss"><div class="j">JAAD</div><div class="v">93(4) &middot; 93(5)</div><div class="m">Oct &amp; Nov 2025 &middot; 12 papers</div></div>
+    <div class="iss"><div class="j">AJD</div><div class="v">66(7) &middot; 66(8)</div><div class="m">Nov &amp; Dec 2025 &middot; 15 papers</div></div>
+    <div class="iss"><div class="j">BJD</div><div class="v">193(4) &middot; 193(5)</div><div class="m">Oct &amp; Nov 2025 &middot; 11 papers</div></div>
+  </div>
+  <div class="acts">
+    <a class="btn primary" href="oct26/">Open screening dashboard →</a>
+    <a class="btn" href="oct26/readinglist.html">Reading list</a>
+    <a class="btn" href="oct26/journalclub_oct2026.csv" download>Dataset (CSV)</a>
+  </div>
+</article>
+
+<div class="sectag">Previous editions</div>
+
+<article class="ed">
   <div class="top">
     <div class="no">09</div>
     <div class="head">
@@ -179,8 +214,6 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-si
     <a class="btn" href="sep26/journalclub_sep2026.csv" download>Dataset (CSV)</a>
   </div>
 </article>
-
-<div class="sectag">Previous editions</div>
 
 <article class="ed">
   <div class="top">
@@ -262,8 +295,9 @@ footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--rule);font-si
     <h3>Screening &amp; reading</h3>
     <p>The dashboard filters by journal, evidence type, topic and issue, and lets you mark each paper
     <em>Include / Maybe / Exclude</em>, flag one as presenting and add notes, with keyboard triage
-    (<code>j</code> <code>k</code> <code>i</code> <code>m</code> <code>x</code>). Decisions are stored in
-    your browser only; use <em>Export decisions</em> to keep a copy.</p>
+    (<code>j</code> <code>k</code> <code>i</code> <code>m</code> <code>x</code>). From October, <code>t</code>
+    opens a full-screen triage view, one paper at a time. Decisions are stored in your browser only; use
+    <em>Export decisions</em> to keep a copy and <em>Import decisions</em> to load it elsewhere.</p>
   </div>
   <div>
     <h3>Citing</h3>

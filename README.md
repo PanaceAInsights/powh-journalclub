@@ -9,6 +9,7 @@ One folder per monthly edition, each generated from PubMed/NCBI (MEDLINE).
 
 | | Edition | Theme | Papers | Scope |
 |---|---|---|---|---|
+| 10 | [October 2026](oct26/) | CME, reviews & guidelines | 38 | JAAD 93(4), 93(5) · AJD 66(7), 66(8) · BJD 193(4), 193(5) |
 | 09 | [September 2026](sep26/) | CME, reviews & guidelines | 45 | JAAD 93(2), 93(3) · AJD 66(5), 66(6) · BJD 193(2), 193(3) |
 | 08 | [August 2026](aug26/) | CME, reviews & guidelines | 40 | JAAD 92(6), 93(1) · AJD 66(4), 66(5) · BJD 192(4)–192(6) |
 | 07 | [July 2026](jul26/) | CME, reviews & original research | 58 | JAAD 92(4), 92(5) · AJD 66(3) · BJD 192(3), 192(S1), 192(4) |
@@ -17,6 +18,10 @@ One folder per monthly edition, each generated from PubMed/NCBI (MEDLINE).
 
 ```
 index.html                      landing page, edition tabs
+oct26/
+  index.html                    screening dashboard (adds triage mode, evidence map, import)
+  readinglist.html              printable reading list
+  journalclub_oct2026.csv       dataset (22 columns, one row per paper)
 sep26/
   index.html                    screening dashboard
   readinglist.html              printable reading list
@@ -41,6 +46,9 @@ dashboard / reading list / CSV without going back to the landing page.
 - **Screen** each paper as Include / Maybe / Exclude, star one as presenting, add notes
 - **Keyboard triage**: `j` `k` to move, `i` `m` `x` to mark, `p` to flag as presenting, `?` for the full list
 - **Export** the shortlist as Markdown or all decisions as CSV
+- **Triage mode** (October onward): `t` opens one paper at a time, full abstract, decide and move on
+- **Evidence map** (October onward): journal × evidence-type grid that doubles as a filter
+- **Import** a decisions CSV back in, to move marks between machines or merge a colleague's
 
 Screening decisions are held in the browser's `localStorage`. They are private to that browser
 and are not uploaded anywhere. Export them if you want them to survive a cache clear or move
