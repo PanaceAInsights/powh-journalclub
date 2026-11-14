@@ -1,0 +1,336 @@
+<!DOCTYPE html><html lang="en" data-theme="auto"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>POWH Dermatology Journal Club, BJD Special Edition</title>
+<meta name="description" content="Special edition of the POWH Dermatology Journal Club: every review article and guideline from four issues of the British Journal of Dermatology (May and June 2025, May and June 2026), with the full papers.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f6f2ea;--paper2:#fffdf8;--paper3:#ece5d8;--ink:#17140f;--ink2:#4a4437;--ink3:#8a8172;
+ --rule:#d9d1c0;--rule2:#c4b9a2;--accent:#a8331c;--pine:#1e5b4f;--pine-soft:#dcebe5;--ochre:#9a6a0e;
+ --ochre-soft:#f6e8cc;--indigo:#2c4a76;--indigo-soft:#dde5f1;--plum:#6b2d5c;--plum-soft:#efdeeb}
+@media(prefers-color-scheme:dark){html[data-theme="auto"]{--paper:#12100d;--paper2:#1b1814;--paper3:#241f19;
+ --ink:#f2ece0;--ink2:#b9b0a0;--ink3:#867d6e;--rule:#2e2820;--rule2:#413a2f;--accent:#e2765c;--pine:#6fbfa8;
+ --pine-soft:#12302a;--ochre:#d9a441;--ochre-soft:#332612;--indigo:#8aabd8;--indigo-soft:#1a2334;
+ --plum:#cb92bc;--plum-soft:#2e1a29}}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'IBM Plex Sans',ui-sans-serif,system-ui,sans-serif;background:var(--paper);color:var(--ink);
+ font-size:16px;line-height:1.58;-webkit-font-smoothing:antialiased}
+a{color:var(--accent);text-underline-offset:2px}
+.shell{max-width:860px;margin:0 auto;padding:0 26px 80px}
+.mast{padding:48px 0 0}
+.mast .org{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink3)}
+.mast h1{font-family:'Fraunces',Georgia,serif;font-weight:600;font-size:clamp(40px,7.5vw,72px);line-height:.94;
+ letter-spacing:-.025em;margin:14px 0 0;font-variation-settings:"opsz" 144}
+.mast h1 em{font-style:italic;color:var(--accent)}
+.mast .kicker{font-family:'Fraunces',serif;font-style:italic;font-size:clamp(17px,2.4vw,22px);color:var(--ink2);margin-top:10px}
+.rule{height:3px;border-top:1px solid var(--rule2);border-bottom:1px solid var(--rule2);padding:2px 0;margin:22px 0 0}
+.dateline{display:flex;flex-wrap:wrap;gap:6px 20px;margin-top:12px;font-family:'IBM Plex Mono',monospace;
+ font-size:11.5px;letter-spacing:.05em;color:var(--ink3)}
+.dateline b{color:var(--ink2);font-weight:500}
+.tools{margin-top:16px;font-size:13px;display:flex;flex-wrap:wrap;gap:16px}
+.tools a{font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:.05em;
+ border-bottom:1px solid var(--rule2);padding-bottom:1px;text-decoration:none}
+.summary{margin-top:30px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:18px 0}
+.sgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:18px}
+.scard .n{font-family:'Fraunces',serif;font-size:34px;font-weight:600;line-height:1;color:var(--accent);
+ font-variation-settings:"opsz" 40}
+.scard .l{font-size:12px;color:var(--ink2);margin-top:4px;line-height:1.35}
+.toc{margin-top:24px;display:grid;gap:1px;background:var(--rule);border:1px solid var(--rule);border-radius:3px;overflow:hidden}
+.toc a{display:flex;justify-content:space-between;align-items:baseline;gap:14px;background:var(--paper2);
+ padding:12px 16px;text-decoration:none;color:var(--ink);transition:background .18s}
+.toc a:hover{background:var(--paper3)}
+.toc .tj{font-family:'Fraunces',serif;font-size:16.5px;font-variation-settings:"opsz" 20}
+.toc .tn{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--ink3)}
+.note-box{margin-top:24px;border-left:3px solid var(--accent);background:var(--paper2);padding:14px 18px;
+ font-size:13.5px;color:var(--ink2);line-height:1.68}
+.note-box strong{color:var(--ink)}
+.sechead{display:flex;gap:18px;align-items:baseline;margin:58px 0 0;padding-bottom:10px;border-bottom:2px solid var(--ink)}
+.secnum{font-family:'Fraunces',serif;font-size:44px;font-weight:600;line-height:.9;color:var(--rule2);
+ font-variation-settings:"opsz" 60}
+.sechead h2{font-family:'Fraunces',serif;font-size:27px;font-weight:600;letter-spacing:-.012em;
+ font-variation-settings:"opsz" 40;line-height:1.15}
+.secscope{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink3);margin-top:4px;letter-spacing:.04em}
+h3.grp{font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.16em;text-transform:uppercase;
+ color:var(--accent);margin:34px 0 2px}
+h3.grp .gcount{color:var(--ink3)}
+p.blurb{font-size:13px;color:var(--ink3);margin-bottom:6px;max-width:66ch;font-style:italic}
+.entry{display:grid;grid-template-columns:48px 1fr;gap:0 18px;padding:20px 0 18px;border-top:1px solid var(--rule)}
+.idx{font-family:'Fraunces',serif;font-size:24px;font-weight:600;color:var(--rule2);line-height:1;font-variation-settings:"opsz" 40}
+.tagline{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin-bottom:7px}
+.badge{font-family:'IBM Plex Mono',monospace;font-size:9.5px;font-weight:500;letter-spacing:.12em;
+ text-transform:uppercase;padding:3px 8px;border-radius:2px}
+.b-cme{background:var(--ochre-soft);color:var(--ochre)}
+.b-guide{background:var(--pine-soft);color:var(--pine)}
+.b-review{background:var(--indigo-soft);color:var(--indigo)}
+.b-sr{background:var(--plum-soft);color:var(--plum)}
+.jchip{font-family:'IBM Plex Mono',monospace;font-size:10.5px;letter-spacing:.07em;color:var(--ink3)}
+.flag{font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.09em;text-transform:uppercase;
+ color:var(--accent);border:1px solid var(--accent);padding:2px 6px;border-radius:2px}
+.flag.brief{color:var(--ink3);border-color:var(--rule2)}
+.entry h3{font-family:'Fraunces',Georgia,serif;font-size:20px;line-height:1.3;font-weight:600;
+ letter-spacing:-.008em;font-variation-settings:"opsz" 32;margin-bottom:5px}
+.entry h3 a{color:var(--ink);text-decoration:none}
+.entry h3 a:hover{color:var(--accent);text-decoration:underline}
+.byline{font-size:13.5px;color:var(--ink2)}
+.cite{font-family:'IBM Plex Mono',monospace;font-size:11.5px;color:var(--ink3);margin-top:2px;font-variant-numeric:tabular-nums}
+.topics{display:flex;flex-wrap:wrap;gap:5px;margin-top:9px}
+.topic{font-size:11px;color:var(--ink2);background:var(--paper3);border-radius:99px;padding:2px 9px}
+.abs{margin-top:11px;font-size:14px;color:var(--ink2);line-height:1.64;border-left:2px solid var(--rule);padding-left:15px}
+.abs .asec{margin-bottom:9px}.abs .asec:last-child{margin-bottom:0}
+.abs .alabel{display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.13em;
+ text-transform:uppercase;color:var(--ink3);margin-bottom:2px}
+.abs.none{font-style:italic;color:var(--ink3);border-left-style:dashed}
+.mesh{margin-top:9px;font-size:11.5px;color:var(--ink3);font-family:'IBM Plex Mono',monospace;line-height:1.6}
+.links{margin-top:10px;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.04em}
+.links a{text-decoration:none;color:var(--ink3)}.links a:hover{color:var(--accent)}
+footer{margin-top:56px;padding-top:22px;border-top:1px solid var(--rule);font-size:12.5px;color:var(--ink3);line-height:1.75}
+footer code{font-family:'IBM Plex Mono',monospace;background:var(--paper3);padding:1px 5px;border-radius:2px}
+@media print{
+  body{background:#fff;color:#000;font-size:10pt}
+  .tools,.toc{display:none}
+  .shell{max-width:none;padding:0}
+  .entry,section{break-inside:avoid}
+  .sechead{break-before:page}
+  section:first-of-type .sechead{break-before:auto}
+  a{color:#000;text-decoration:none}
+  .abs{border-left-color:#bbb}
+}
+@media(max-width:640px){.entry{grid-template-columns:34px 1fr;gap:0 12px}.sechead{gap:12px}.secnum{font-size:32px}}
+</style>
+<style>
+.b-sr{background:var(--plum-soft);color:var(--plum)}
+.flag.seen{color:var(--ink3);border-color:var(--rule2)}
+.flag.oa{color:var(--pine);border-color:var(--pine)}
+.paper{margin-top:13px;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.pbtn{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border-radius:3px;text-decoration:none;
+ font-size:13px;font-weight:500;border:1px solid var(--rule2);color:var(--ink2);transition:all .17s}
+.pbtn:hover{border-color:var(--ink);color:var(--ink);background:var(--paper3)}
+.pbtn.primary{background:var(--ink);border-color:var(--ink);color:var(--paper2)}
+.pbtn.primary:hover{background:var(--accent);border-color:var(--accent);color:#fff}
+.pmeta{font-family:'IBM Plex Mono',monospace;font-size:11px;color:var(--ink3);letter-spacing:.03em}
+.pmeta a{color:var(--ink3)}
+.abs .synlabel{display:block;font-family:'IBM Plex Mono',monospace;font-size:9.5px;letter-spacing:.13em;
+ text-transform:uppercase;color:var(--accent);margin-bottom:8px}
+.abs.syn{border-left-color:var(--accent)}
+@media print{.paper .pbtn{border:none;padding:0;font-size:9pt}.paper .pbtn::after{content:" (" attr(href) ")";font-size:8pt;color:#555}}
+@media(max-width:620px){.pbtn{flex:1;justify-content:center}}
+</style></head><body>
+<nav id="jcnav" aria-label="Site navigation"><style>
+#jcnav{--n-bg:#17140f;--n-fg:#ece5d7;--n-dim:#9c9284;--n-hi:#e2765c;--n-line:#2e2820;
+ background:var(--n-bg);color:var(--n-fg);border-bottom:1px solid var(--n-line);
+ font-family:'IBM Plex Sans','DM Sans',ui-sans-serif,system-ui,-apple-system,'Segoe UI',sans-serif;
+ font-size:13px;line-height:1;-webkit-font-smoothing:antialiased}
+#jcnav *{box-sizing:border-box}
+#jcnav a{color:inherit;text-decoration:none}
+#jcnav .jcn{max-width:1180px;margin:0 auto;padding:0 22px;display:flex;align-items:stretch;
+ gap:6px 24px;flex-wrap:wrap;min-height:47px}
+#jcnav .brand{display:flex;align-items:center;gap:7px;padding:14px 0;white-space:nowrap;
+ font-weight:600;letter-spacing:-.005em;transition:color .16s}
+#jcnav .brand b{font-weight:600}
+#jcnav .brand i{font-style:normal;color:var(--n-dim);font-weight:400}
+#jcnav .brand:hover{color:var(--n-hi)}
+#jcnav .tabs{display:flex;align-items:stretch}
+#jcnav .tabs a{display:flex;align-items:center;padding:0 14px;color:var(--n-dim);font-weight:500;
+ border-bottom:2px solid transparent;transition:color .16s,border-color .16s}
+#jcnav .tabs a:hover{color:var(--n-fg)}
+#jcnav .tabs a[aria-current="page"]{color:#fff;border-bottom-color:var(--n-hi)}
+#jcnav .views{margin-left:auto;display:flex;align-items:center;gap:3px;padding:8px 0}
+#jcnav .views a{padding:6px 12px;border-radius:99px;color:var(--n-dim);font-size:12.5px;transition:all .16s}
+#jcnav .views a:hover{background:rgba(255,255,255,.08);color:var(--n-fg)}
+#jcnav .views a[aria-current="page"]{background:rgba(255,255,255,.14);color:#fff}
+@media(max-width:660px){#jcnav .views{margin-left:0;width:100%;padding:0 0 10px;flex-wrap:wrap}
+ #jcnav .jcn{gap:0 14px}}
+@media(max-width:660px){#jcnav .tabs{max-width:100%;overflow-x:auto}#jcnav .tabs a{padding:9px 10px;white-space:nowrap}#jcnav .tabs a:first-child{padding-left:0}}@media print{#jcnav{display:none!important}}
+</style>
+<div class="jcn">
+  <a class="brand" href="../"><b>POWH Dermatology</b> <i>Journal Club</i></a>
+  <div class="tabs"><a href="../jul26/">Jul 2026</a><a href="../aug26/">Aug 2026</a><a href="../sep26/">Sep 2026</a><a href="../oct26/">Oct 2026</a><a href="../bjd-special/" aria-current="page">BJD Special</a></div>
+  <div class="views">
+    <a href="./" aria-current="page">Full papers</a>
+    <a href="journalclub_bjd_special.csv" download>CSV&nbsp;↓</a>
+  </div>
+</div>
+</nav><div class="shell">
+
+<header class="mast">
+  <div class="org">Prince of Wales Hospital &middot; Department of Dermatology &middot; Sydney</div>
+  <h1>BJD&nbsp;<em>Special</em></h1>
+  <div class="kicker">Review articles &amp; guidelines from the British Journal of Dermatology, May &amp; June 2025 and May &amp; June 2026, with the full papers</div>
+  <div class="rule"></div>
+  <div class="dateline">
+    <span>Compiled <b>14 November 2026</b></span>
+    <span>Source <b>Oxford Academic / PubMed</b></span>
+    <span><b>10</b> papers from <b>4</b> issues</span>
+    <span><b>118</b> pages of full text</span>
+  </div>
+  <div class="tools">
+    <a href="journalclub_bjd_special.csv">↓ Download CSV</a>
+    <a href="javascript:window.print()">⎙ Print / save as PDF</a>
+  </div>
+</header>
+
+<div class="summary"><div class="sgrid"><div class="scard"><div class="n">6</div><div class="l">Review articles</div></div><div class="scard"><div class="n">2</div><div class="l">Guidelines (NICE melanoma summary, BAD nodular prurigo)</div></div><div class="scard"><div class="n">2</div><div class="l">Scoping reviews from the Systematic Review section</div></div><div class="scard"><div class="n">10</div><div class="l">Full papers, 2 hosted here, 8 free on OUP</div></div></div></div>
+<nav class="toc"><a href="#i192-5"><span class="tj">May 2025 &middot; 192(5)</span><span class="tn">3</span></a><a href="#i192-6"><span class="tj">June 2025 &middot; 192(6)</span><span class="tn">2</span></a><a href="#i194-5"><span class="tj">May 2026 &middot; 194(5)</span><span class="tn">1</span></a><a href="#i194-6"><span class="tj">June 2026 &middot; 194(6)</span><span class="tn">4</span></a></nav>
+
+<div class="note-box">
+  <p><strong>How this was built.</strong> All 168 PubMed records for BJD 192(5), 192(6), 194(5) and 194(6) were retrieved,
+  then matched to Oxford Academic's own table of contents. Everything filed under <em>Review Article</em>,
+  <em>Guidelines</em>, <em>BAD Guidelines</em> and <em>Systematic Review</em> is included; nothing else is.
+  Cover months come from the OUP issue pages (192 is January to June 2025, 194 is January to June 2026).</p>
+  <p><strong>Full papers.</strong> Every paper here is free to read on Oxford Academic. The 2 published under a Creative Commons licence are hosted on this site as PDFs. The other 8 are free-access but all rights reserved, so their <em>Full paper</em> button opens the PDF on OUP (the first visit can show a short security check).</p>
+  <p style="margin-top:9px"><strong>Worth flagging.</strong> The five 2025 papers were already in the
+  <a href="../aug26/">August 2026 edition</a>, which covered BJD 192(4) to 192(6); they are repeated here so the
+  set is complete with full text. The May 2026 issue has a single review and no guideline or systematic review.
+  Both papers in the <em>Systematic Review</em> section are scoping reviews. The nodular prurigo living guideline has
+  no journal abstract, so it carries a synopsis compiled from the full text.</p>
+  <p style="margin-top:9px"><strong>Left out on purpose.</strong> Items outside the four sections: the
+  <em>Critically Appraised Topic</em> on the two phase III bimekizumab trials in hidradenitis suppurativa (194(6)), a
+  systematic review of multifocal lymphangioendotheliomatosis with thrombocytopenia published as a research letter
+  (194(5)), and the doxycycline post-exposure prophylaxis primer in Perspectives (192(6)).</p>
+</div>
+
+<section id="i192-5">
+      <div class="sechead"><div class="secnum">1</div>
+        <div><h2>May 2025</h2><div class="secscope">British Journal of Dermatology 192(5) &nbsp;·&nbsp; 3 papers</div></div></div>
+    <article class="entry" id="ljae472"><div class="idx">01</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span> <span class="flag seen">Also in Aug 2026 edition</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/192/5/796/7924149" target="_blank" rel="noopener">Emerging role of regulatory T cells in the immunopathogenesis of vitiligo and implications for treatment</a></h3>
+      <div class="byline">Liu Y; Liu Z; Li D; He X; Xiang L; Li B; Zhang C</div>
+      <div class="cite">Br J Dermatol. 2025;192(5):796-806</div>
+      <div class="topics"><span class="topic">Vitiligo</span><span class="topic">Immunology</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/192/5/796/61182954/ljae472.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/192/5/796/7924149" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">11 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Vitiligo is an autoimmune skin disease that targets pigment-producing melanocytes and results in depigmentation. This disfiguring condition frequently affects visible areas of the body and therefore causes a heavy psychological burden and a decreased quality of life. Although it remains intractable, the ever-growing understanding of its immunopathogenesis has dramatically shaped the treatment paradigm for vitiligo. With the impact of autoreactive cytotoxic T cells explained extensively, accumulating evidence suggests the unique role of regulatory T cells (Tregs) in the immune microenvironment of vitiligo. We systematically reviewed Treg deficiency, instability, reduced vitality and dysfunction in people with vitiligo, combined with novel findings regarding Treg function modulation in autoimmune backgrounds, including metabolic alteration, post-translational modifications and interaction with other immune cells. We further summarized classic and advanced Treg-targeted therapeutics in vitiligo practice and research. Herein, we share up-to-date knowledge of Tregs in vitiligo, providing insights into novel Treg-based therapeutic strategies.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljae472" target="_blank" rel="noopener">DOI 10.1093/bjd/ljae472</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39673777/" target="_blank" rel="noopener">PubMed 39673777</a></div>
+    </div></article>
+    <article class="entry" id="ljaf016"><div class="idx">02</div><div>
+      <div class="tagline"><span class="badge b-guide">Guideline</span><span class="jchip">BJD · Guidelines</span> <span class="flag seen">Also in Aug 2026 edition</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/192/5/807/7965756" target="_blank" rel="noopener">Melanoma: assessment and management summary of the 2022 update of the National Institute for Health and Care Excellence guidelines</a></h3>
+      <div class="byline">Smith MJ; Peach H; Keohane S; Lear J; Jamieson LA; Mohamed HS; NICE Melanoma Assessment and Management guideline committee</div>
+      <div class="cite">Br J Dermatol. 2025;192(5):807-817</div>
+      <div class="topics"><span class="topic">Melanoma</span><span class="topic">Skin cancer</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/192/5/807/61529475/ljaf016.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/192/5/807/7965756" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">11 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Melanoma is the fifth most common cancer in the UK, accounting for 4% of all new cases of cancer, with a predicted 7% increase in incidence between 2014 and 2035. In parallel, since the initial publication of the National Institute for Health and Care Excellence (NICE) melanoma guidelines in 2015, there has been a paradigm shift in the management of the disease, with the introduction of effective systemic therapies. These innovations have reshaped the management of melanoma throughout the patient journey, and improved clinical outcomes. Surgical management has evolved, with the role of sentinel node biopsy in staging and management of regional lymph nodes becoming clearly defined, and a reduction in the need and indications for morbid block dissections. In advanced disease, effective therapies have allowed a de-escalation of surgery, changing the role and sequencing of local therapies. Regional therapies for in-transit disease have expanded and are effective in controlling this pattern of disease as part of multidisciplinary care. These advances have undoubtedly improved the care for people with melanoma, but they have also increased the complexity of management. In this context, this article seeks to summarize the most relevant of the recent updates to the NICE guidelines.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf016" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf016</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39836183/" target="_blank" rel="noopener">PubMed 39836183</a></div>
+    </div></article>
+    <article class="entry" id="ljaf031"><div class="idx">03</div><div>
+      <div class="tagline"><span class="badge b-sr">Scoping review</span><span class="jchip">BJD · Systematic Review</span> <span class="flag oa">Open access · CC BY-NC 4.0</span> <span class="flag seen">Also in Aug 2026 edition</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/192/5/818/7990831" target="_blank" rel="noopener">Reporting of concomitant and rescue topical therapies in randomized controlled trials evaluating a systemic treatment in atopic dermatitis: a scoping review</a></h3>
+      <div class="byline">Leducq S; Fong WCG; Williams HC; Bradshaw L; Thomas KS</div>
+      <div class="cite">Br J Dermatol. 2025;192(5):818-825</div>
+      <div class="topics"><span class="topic">Atopic dermatitis</span><span class="topic">Trial methodology</span></div>
+      <div class="paper"><a class="pbtn primary" href="papers/BJD_2025-05_Leducq_AD-trials-topical-rescue-scoping_ljaf031.pdf" target="_blank" rel="noopener">Full paper (PDF) ↓</a><a class="pbtn" href="https://academic.oup.com/bjd/article/192/5/818/7990831" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">8 pages · <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a></span></div>
+      <div class="abs"><div class="asec"><span class=alabel>Background</span><p>Randomized controlled trials (RCTs) evaluating new systemic treatments for atopic dermatitis (AD) have increased dramatically over the last decade. These trials often incorporate topical therapies either as permitted concomitant or rescue treatments. Differential use of these topicals postrandomization introduces potential bias as they may nullify or exaggerate treatment responses.</p></div><div class="asec"><span class=alabel>Objectives</span><p>To determine the proportion of RCTs that clearly report the allowance or prohibition of concomitant and rescue topical treatments; and to examine the reporting of specific key parameters for these topicals.</p></div><div class="asec"><span class=alabel>Methods</span><p>We included RCTs of systemic AD medication included in a recent living systematic review. Inclusion criteria were published RCTs evaluating systemic immunomodulatory treatments in AD. Only anti-inflammatory topical therapies were included treatments in this review; emollients were not considered.</p></div><div class="asec"><span class=alabel>Results</span><p>We screened 83 AD trials and included 67 RCTs published between 1991 and 2023. The majority adequately reported the allowance or prohibition of concomitant topical treatments (n = 64/67; 96%), but this clarity was less prevalent with regard to rescue topicals (n = 49/67; 73%). All trials that permitted concomitant treatments consistently reported the type, although details on potency (n = 31/35; 89%), duration (n = 19/35; 54%), application frequency (n = 12/35; 34%) and quantity (n = 2/35; 6%) were less frequently reported. Similarly, trials that allowed rescue treatments often specified the type (n = 31/34; 91%) but provided limited information on potency (n = 18/34; 53%), duration (n = 3/34; 9%), application frequency (n = 2/34; 6%) and quantity (n = 0/34; 0%). Notably, only 24% (n = 8/34) clearly reported the criteria for using rescue topical treatments, with the phrase &#x27;at investigator&#x27;s discretion&#x27; used in most cases (n = 21/34; 62%). In the multivariable logistic regression analysis including impact factor, the journal&#x27;s policy on adhering to CONSORT guidelines, publication year, funding, number of patients randomized and blinding status, only publication year (≥ 2020) was associated with having better reporting for rescue topical treatments (adjusted odds ratio 9.55, 95% confidence interval 1.76-39.80).</p></div><div class="asec"><span class=alabel>Conclusions</span><p>While most clinical trials of systemic treatments in AD report concomitant topical treatments, reporting practices for rescue topicals are less consistent and inadequate. A standardized approach to reporting topical treatment in AD trials is needed to enhance transparency and interpretability.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf031" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf031</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/39883519/" target="_blank" rel="noopener">PubMed 39883519</a></div>
+    </div></article>
+    </section><section id="i192-6">
+      <div class="sechead"><div class="secnum">2</div>
+        <div><h2>June 2025</h2><div class="secscope">British Journal of Dermatology 192(6) &nbsp;·&nbsp; 2 papers</div></div></div>
+    <article class="entry" id="ljaf096"><div class="idx">04</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span> <span class="flag seen">Also in Aug 2026 edition</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/192/6/974/8075155" target="_blank" rel="noopener">Cutaneous granulomas: mechanisms, cellular interactions and therapeutic insights</a></h3>
+      <div class="byline">Nakamizo S; Kabashima K</div>
+      <div class="cite">Br J Dermatol. 2025;192(6):974-982</div>
+      <div class="topics"><span class="topic">Granulomatous disease</span><span class="topic">Immunology</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/192/6/974/62403023/ljaf096.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/192/6/974/8075155" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">9 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Granulomas are specialized biologic defence mechanisms that form in response to infections by pathogens, foreign bodies or specific stimuli such as antimicrobials or fungi. These structures function to isolate foreign materials and pathogens that cannot be eliminated by immune cells, primarily through macrophage activity. In the skin, granulomas are a hallmark of several conditions, including sarcoidosis, granuloma annulare, tuberculosis and leprosy, each exhibiting distinct pathological and immunological features. Granulomas can also arise from lipid accumulation, as observed in xanthogranuloma, or be triggered by inflammatory processes associated with unidentified antigens. Among their cellular components, Langhans-type multinucleated giant cells play a pivotal role in granuloma structure and function, contributing to pathogen containment and tissue remodelling, although their precise mechanisms of action remain an area of active investigation. In addition to these giant cells, recent studies have identified triggering receptors expressed on myeloid cells 2 (TREM2)+ macrophages as key contributors to granuloma formation and maintenance. These macrophages are involved in extracellular degradation of foreign substances and play a role in adapting to the hypoxic and nutrient-poor microenvironment of granulomas through metabolic reprogramming, including the pentose phosphate pathway. Recent advances in molecular biology, such as single-cell RNA sequencing, have provided unprecedented insights into the cellular heterogeneity and molecular pathways involved in granuloma formation. These techniques have revealed disease-specific differences in immune cell profiles and activation states, offering new perspectives on the underlying mechanisms of granulomatous diseases. Despite these advances, the precise processes driving granuloma formation and their functional significance remain largely unclear. This review addresses the central question, &#x27;What is a granuloma?&#x27;, by synthesizing recent findings, with a particular focus on cutaneous granulomas, and presenting interpretations grounded in the current body of literature. We also discuss the implications of these findings for the development of novel therapeutic strategies, including targeted immunomodulation and cytokine blockade, which hold promise for treating granulomatous diseases while preserving host defence.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf096" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf096</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40080709/" target="_blank" rel="noopener">PubMed 40080709</a></div>
+    </div></article>
+    <article class="entry" id="ljaf087"><div class="idx">05</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span> <span class="flag seen">Also in Aug 2026 edition</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/192/6/983/8067419" target="_blank" rel="noopener">The landscape of N  6-methyladenosine RNA methylation in skin diseases</a></h3>
+      <div class="byline">Zhang Q; Liu G; Jing L; Aghayants S; Xu F; Fan Y</div>
+      <div class="cite">Br J Dermatol. 2025;192(6):983-994</div>
+      <div class="topics"><span class="topic">Epigenetics</span><span class="topic">Basic science</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/192/6/983/62361888/ljaf087.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/192/6/983/8067419" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">12 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Skin diseases encompass a diverse range of conditions with significant psychological and physiological impacts. N6-methyladenosine (m6A) RNA methylation is a key epitranscriptomic modification that regulates gene expression by influencing RNA stability, splicing, translation, export and degradation. Recent studies have highlighted the crucial role of m6A modification in the pathogenesis and progression of various skin diseases. m6A modification affects critical biologic processes of the skin, such as inflammation, immune response and cellular ageing. This review systematically explores the landscape of m6A modification in nontumour skin diseases, elucidating its regulatory roles and therapeutic implications, including wound healing, scar and keloid, skin ageing, psoriasis, systemic lupus erythematosus, acne vulgaris, rosacea, chronic actinic dermatitis and scleroderma. The intricate mechanisms of m6A modification can lead to the development of novel diagnostic biomarkers and therapeutic strategies, ultimately improving patient outcomes.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf087" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf087</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/40059697/" target="_blank" rel="noopener">PubMed 40059697</a></div>
+    </div></article>
+    </section><section id="i194-5">
+      <div class="sechead"><div class="secnum">3</div>
+        <div><h2>May 2026</h2><div class="secscope">British Journal of Dermatology 194(5) &nbsp;·&nbsp; 1 paper</div></div></div>
+    <article class="entry" id="ljaf526"><div class="idx">06</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/194/5/834/8405450" target="_blank" rel="noopener">Targeting the cGAS-STING pathway for therapeutic gain in autoimmune inflammatory cutaneous diseases with a focus on systemic lupus erythematosus and systemic sclerosis</a></h3>
+      <div class="byline">O&#x27;Reilly S</div>
+      <div class="cite">Br J Dermatol. 2026;194(5):834-842</div>
+      <div class="topics"><span class="topic">Lupus</span><span class="topic">Systemic sclerosis</span><span class="topic">Basic science</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/194/5/834/66134135/ljaf526.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/194/5/834/8405450" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">9 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>The cGAS-STING [cyclic GMP-AMP (cGAMP) synthase (cGAS)-stimulator of interferon genes (STING)] pathway is an evolutionarily conserved pathway for sensing and responding to cytosolic double-stranded (ds)DNA, whether pathogen-associated or endogenous. Detection and binding of dsDNA by cGAS enzymatically generates the second messenger cGAMP, which in turn binds the endoplasmic reticulum-resident signalling protein STING, activating IRF3 (interferon regulatory factor 3), leading to expression of type I interferons. This pathway is necessary for both viral infection and antitumoral responses. Various autoinflammatory cutaneous diseases such as systemic lupus erythematosus (SLE) and systemic sclerosis (SSc) also share key features, such as antibodies to nuclear fractions and a prominent type I interferon signature, suggesting that the cGAS-STING pathway may be important in these diseases. In recent years, key in vitro, ex vivo and in vivo evidence has been produced, highlighting a crucial role of STING in both diseases and providing a rationale for therapeutic targeting. This review focuses primarily on the role of the cGAS-STING pathway in SLE and SSc, emphasizing the rationale for therapeutic targeting and suggesting novel ways of augmenting this critical pathway.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljaf526" target="_blank" rel="noopener">DOI 10.1093/bjd/ljaf526</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/41453074/" target="_blank" rel="noopener">PubMed 41453074</a></div>
+    </div></article>
+    </section><section id="i194-6">
+      <div class="sechead"><div class="secnum">4</div>
+        <div><h2>June 2026</h2><div class="secscope">British Journal of Dermatology 194(6) &nbsp;·&nbsp; 4 papers</div></div></div>
+    <article class="entry" id="ljag058"><div class="idx">07</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/194/6/1006/8489163" target="_blank" rel="noopener">Clinical and molecular markers of vitiligo: a narrative review of early-stage insights into disease activity and treatment response</a></h3>
+      <div class="byline">Zhu Z; Zhu Y; Xuan Y; Wu Y; Liu Y; Wang X; … Zhang C</div>
+      <div class="cite">Br J Dermatol. 2026;194(6):1006-1023</div>
+      <div class="topics"><span class="topic">Vitiligo</span><span class="topic">Biomarkers</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/194/6/1006/66967461/ljag058.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/194/6/1006/8489163" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">18 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Vitiligo fluctuates between progressive and quiescent states, complicating decisions about when to intervene, how to select therapy and how to monitor response. In this review, we integrate bedside phenotypes with multilevel molecular readouts to summarize emerging evidence linking clinical signs and biologic signals to disease activity and treatment response in clinical studies. For staging, tool-free and standardized assessments such as Koebner phenomenon, confetti-like depigmentation, Wood&#x27;s lamp and dermoscopy provide visible clues associated with active disease. Measurements from blood, suction blister fluid and tissue offer complementary insights into local and systemic immune activation, suggesting how molecular signals may relate to progression. For stratification, factors such as age, lesion site, disease stability, comorbidities and dermoscopic border features have been tentatively associated with differential responses to therapies such as phototherapy or transplantation. Similarly, lower baseline levels of inflammatory, chemotactic and cytotoxic markers have been informally aligned with better outcomes in clinical studies. For monitoring, the response phase typically mirrors a reversal of progression: waning inflammatory signalling, reduced effector-cell burden and partial recovery of melanogenic programmes provide molecular parallels to clinical improvement. Across these domains, the interferon-γ-CXCL9/CXCL10-CD8+ T-cell axis emerges as the most recurrent immune signature, demonstrating reproducible associations with activity, prognosis and treatment response. Future work should prioritize harmonized definitions of disease activity, standardized sampling standards and multicentre validation of integrated biomarker panels. It is equally critical to determine whether proposed biomarker thresholds relate to clinically meaningful endpoints, thereby translating early-stage discoveries into reliable frameworks for staging, stratification and monitoring.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljag058" target="_blank" rel="noopener">DOI 10.1093/bjd/ljag058</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/41703718/" target="_blank" rel="noopener">PubMed 41703718</a></div>
+    </div></article>
+    <article class="entry" id="ljag068"><div class="idx">08</div><div>
+      <div class="tagline"><span class="badge b-review">Review article</span><span class="jchip">BJD · Review Article</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/194/6/1024/8495105" target="_blank" rel="noopener">Microbiota-fibroblast crosstalk represents the missing link in skin barrier dysfunction and fibrosis</a></h3>
+      <div class="byline">Lin Z; Yang L; Han Y; Qi C; Chen L; Luo Y; … Wang G</div>
+      <div class="cite">Br J Dermatol. 2026;194(6):1024-1034</div>
+      <div class="topics"><span class="topic">Microbiome</span><span class="topic">Fibrosis</span><span class="topic">Basic science</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/194/6/1024/67077274/ljag068.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/194/6/1024/8495105" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">11 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs"><div class="asec"><p>Dermal fibroblasts are key cellular components of the skin stroma, primarily responsible for extracellular matrix synthesis and the maintenance of tissue structure and function. Beyond this canonical role, these cells also possess immune regulatory functions, enabling them to sense and integrate microbial cues to orchestrate cutaneous inflammatory responses, wound repair and fibrogenesis. The skin microbiome is a critical regulator of fibroblast homeostasis; its dysbiosis disrupts fibroblast-microbe crosstalk, leading to aberrant fibroblast activation and contributing to the pathogenesis of various dermatological conditions. Clinically, the burden of these disorders is substantial, and current therapeutic strategies targeting fibroblast dysfunction often yield limited efficacy. Fortunately, recent advances in deciphering the pathophysiological mechanisms underlying fibroblast-microbe interactions have highlighted critical molecular regulatory networks, opening new therapeutic avenues. Among these emerging approaches, interventions targeting the microbiota-fibroblast axis - such as probiotics, postbiotics and fibroblast-directed agents - hold considerable promise. Deciphering the nuances of this crosstalk is pivotal for advancing precision and regenerative therapies, with potential implications for cutaneous and systemic fibrotic disorders.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljag068" target="_blank" rel="noopener">DOI 10.1093/bjd/ljag068</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/41729814/" target="_blank" rel="noopener">PubMed 41729814</a></div>
+    </div></article>
+    <article class="entry" id="ljag070"><div class="idx">09</div><div>
+      <div class="tagline"><span class="badge b-guide">Guideline</span><span class="jchip">BJD · BAD Guidelines</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/194/6/1035/8506828" target="_blank" rel="noopener">British Association of Dermatologists living guideline for managing people with nodular prurigo (prurigo nodularis) 2025</a></h3>
+      <div class="byline">Millington GWM; Patel PU; Chua SL; Bewley A; Sterling JC; Hughes JR; … Mansour Kiaee Z</div>
+      <div class="cite">Br J Dermatol. 2026;194(6):1035-1045</div>
+      <div class="topics"><span class="topic">Nodular prurigo</span><span class="topic">Itch</span></div>
+      <div class="paper"><a class="pbtn primary" href="https://academic.oup.com/bjd/article-pdf/194/6/1035/67240055/ljag070.pdf" target="_blank" rel="noopener">Full paper (PDF on OUP) ↗</a><a class="pbtn" href="https://academic.oup.com/bjd/article/194/6/1035/8506828" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">11 pages · free access on OUP · © all rights reserved</span></div>
+      <div class="abs syn"><span class="synlabel">No journal abstract · synopsis compiled from the full text</span><div class="asec"><span class="alabel">Scope</span><p>The British Association of Dermatologists&#x27; first living guideline on nodular prurigo, for adults, young people and children. The evidence search ran to 25 April 2025 and was graded with GRADE; the Guideline Development Group included dermatologists, a clinical psychologist, a GP and two people with lived experience of the condition. It makes 27 recommendations plus five research priorities.</p></div><div class="asec"><span class="alabel">Assessment</span><p>Record the site, size and number of lesions, a full medication and recreational drug history, comorbidities and the psychosocial impact; investigate itch as needed using the BAD generalized pruritus screen; and track DLQI, Prurigo Activity Score, itch severity and mood scales (HADS, GAD-7, PHQ-9, PHQ-4). Ask about atopic dermatitis, and manage concomitant moderate-to-severe AD according to the NICE appraisals for AD.</p></div><div class="asec"><span class="alabel">Treatment ladder</span><p>Topical corticosteroid or topical tacrolimus is first line for mild-to-moderate disease (a strong recommendation upgraded by consensus), with occlusion or steroid tape as needed; intralesional steroid or cryotherapy for localized or persistent nodules; menthol 1% cream, a nonsedating antihistamine or low-dose amitriptyline as add-ons; narrowband UVB in preference to PUVA, with bath PUVA if it fails; then oral methotrexate (up to 25 mg weekly) or ciclosporin (up to 5 mg/kg daily). The one strong systemic recommendation is to offer a licensed biologic (dupilumab or nemolizumab) to adults with moderate-to-severe disease who are candidates for systemic therapy. Thalidomide is reserved for disease resistant to everything else.</p></div><div class="asec"><span class="alabel">No recommendation</span><p>Evidence was judged insufficient for tofacitinib, tralokinumab, vixarelimab, opioid modulators, pregabalin, aprepitant, serlopitant, acitretin, alitretinoin, lenalidomide, laser, oral PUVA, complementary therapies and exclusion diets.</p></div><div class="asec"><span class="alabel">Psychological care and follow-up</span><p>Habit-reversal for the itch-scratch cycle runs alongside physical treatment from the start. Psychological support is stepped by distress (self-help, then CBT or habit-reversal referral, then specialist mental health care), with formal suicide-risk assessment where indicated. Review everyone at least once in the following 12 months.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljag070" target="_blank" rel="noopener">DOI 10.1093/bjd/ljag070</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/41783941/" target="_blank" rel="noopener">PubMed 41783941</a></div>
+    </div></article>
+    <article class="entry" id="ljag074"><div class="idx">10</div><div>
+      <div class="tagline"><span class="badge b-sr">Scoping review</span><span class="jchip">BJD · Systematic Review</span> <span class="flag oa">Open access · CC BY 4.0</span></div>
+      <h3><a href="https://academic.oup.com/bjd/article/194/6/1046/8498803" target="_blank" rel="noopener">Phenotypic, functional, prognostic and predictive significance of B-cell and antibody responses in human melanoma: a scoping review</a></h3>
+      <div class="byline">Booth L; Chen X; Stoker K; McCraw A; Tahiri M; Wu Y; … Karagiannis SN</div>
+      <div class="cite">Br J Dermatol. 2026;194(6):1046-1063</div>
+      <div class="topics"><span class="topic">Melanoma</span><span class="topic">Immuno-oncology</span></div>
+      <div class="paper"><a class="pbtn primary" href="papers/BJD_2026-06_Booth_B-cells-melanoma-scoping_ljag074.pdf" target="_blank" rel="noopener">Full paper (PDF) ↓</a><a class="pbtn" href="https://academic.oup.com/bjd/article/194/6/1046/8498803" target="_blank" rel="noopener">Full text on OUP ↗</a><span class="pmeta">18 pages · <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener">CC BY 4.0</a></span></div>
+      <div class="abs"><div class="asec"><span class=alabel>Background</span><p>The clinical significance of B cells and the antibodies they express is increasingly appreciated in melanoma, a highly immunogenic tumour, for which immune checkpoint inhibitor (ICI) therapy is the standard care for advanced disease.</p></div><div class="asec"><span class=alabel>Objectives</span><p>To evaluate the phenotypes and roles of B cells and antibodies in patients with melanoma, and their prognostic and predictive value, in a scoping review following PRISMA-ScR reporting guidelines.</p></div><div class="asec"><span class=alabel>Methods</span><p>Using three search engines, we conducted literature searches for full-text studies written in English from 1 January 2000 to 9 October 2024. Three reviewers conducted title and abstract screening, followed by full-text paper assessment by two independent reviewers. This study was registered with PROSPERO (CRD42024592965).</p></div><div class="asec"><span class=alabel>Results</span><p>Of 4667 identified studies (PubMed, n = 827; Scopus, n = 2759; Ovid MEDLINE, n = 1081), 1659 were duplicates. The titles and abstracts of the remaining 3008 were screened to yield 251 full-text papers, resulting in the inclusion of 80 studies. Our search identified increased naïve, alternatively activated and regulatory B cells in blood, and a bias towards differentiated and class-switched B-cell infiltrates in tumours. Consistent associations were found between B-cell density in tumours, particularly the abundance of memory B cells and more favourable survival outcomes. Despite tumour and immune response heterogeneity, collectively, enriched B-cell signatures such as B-cell abundance, B-cell receptor diversity and immunoglobulin gene rearrangement in tumours correlated with better ICI response. Antibody dysregulation favouring the anti-inflammatory IgG4 isotype was associated with less-favourable outcomes, while class switching to immune-stimulating isotypes such as IgG1 correlated with better clinical outcomes and ICI response. Antibody reactivity and autoantibody analysis revealed distinct isotype signatures in patients, the presence of cancer antigen-reactive antibodies and an association between increased autoantibody production on treatment with ICIs and the development of toxicity (immune-related adverse events; irAEs).</p></div><div class="asec"><span class=alabel>Conclusions</span><p>We draw consensus for associations between class-switched B cells and immune-active antibody isotypes that indicate heightened classical immunity, with improved immunotherapy response. Alternatively activated, regulatory B cells and immune-inert antibody isotypes are associated with immunosuppression and less-favourable clinical outcomes. We reveal aspects of humoral immunity that offer opportunities to identify predictive biomarkers of immunotherapy response and irAEs.</p></div></div>
+      <div class="links"><a href="https://doi.org/10.1093/bjd/ljag074" target="_blank" rel="noopener">DOI 10.1093/bjd/ljag074</a>
+        &nbsp;·&nbsp; <a href="https://pubmed.ncbi.nlm.nih.gov/41742701/" target="_blank" rel="noopener">PubMed 41742701</a></div>
+    </div></article>
+    </section>
+
+<footer>
+  <p>Bibliographic data and abstracts © the publisher and the British Association of Dermatologists, indexed by PubMed;
+  cite the primary source. Abstracts are reproduced from PubMed for screening purposes. PDFs hosted on this site are the two
+  articles published under Creative Commons licences (CC BY 4.0 and CC BY-NC 4.0), shared unchanged apart from
+  removal of the download watermark line. All other full papers are linked at Oxford Academic, where they are free to read.</p>
+</footer>
+<div id="jccredit">
+<style>
+#jccredit{margin:26px 0 0;padding:15px 0 2px;border-top:1px solid;opacity:.5;text-align:center;
+ font-family:'IBM Plex Mono','DM Sans',ui-monospace,SFMono-Regular,monospace;
+ font-size:10px;letter-spacing:.15em;text-transform:uppercase;line-height:1.7}
+#jccredit b{font-weight:600;letter-spacing:.12em}
+#jccredit a{color:inherit;text-decoration:none;border-bottom:1px solid transparent;transition:border-color .18s}
+#jccredit a:hover{border-bottom-color:currentColor}
+#jccredit i{font-style:normal;opacity:.8}
+@media print{#jccredit{opacity:.65}}
+</style>
+Compiled by <a href="https://www.linkedin.com/in/yagizalpaksoy/" target="_blank" rel="noopener"><b>Dr Yagiz Aksoy</b></a> <i>MD&nbsp;PhD</i>
+</div>
+</div></body></html>

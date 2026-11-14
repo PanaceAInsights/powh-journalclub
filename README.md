@@ -9,6 +9,7 @@ One folder per monthly edition, each generated from PubMed/NCBI (MEDLINE).
 
 | | Edition | Theme | Papers | Scope |
 |---|---|---|---|---|
+| ★ | [BJD Special](bjd-special/) | Review articles & guidelines, with full papers | 10 | BJD 192(5), 192(6), 194(5), 194(6) |
 | 10 | [October 2026](oct26/) | CME, reviews & guidelines | 38 | JAAD 93(4), 93(5) · AJD 66(7), 66(8) · BJD 193(4), 193(5) |
 | 09 | [September 2026](sep26/) | CME, reviews & guidelines | 45 | JAAD 93(2), 93(3) · AJD 66(5), 66(6) · BJD 193(2), 193(3) |
 | 08 | [August 2026](aug26/) | CME, reviews & guidelines | 40 | JAAD 92(6), 93(1) · AJD 66(4), 66(5) · BJD 192(4)–192(6) |
@@ -18,6 +19,10 @@ One folder per monthly edition, each generated from PubMed/NCBI (MEDLINE).
 
 ```
 index.html                      landing page, edition tabs
+bjd-special/
+  index.html                    special edition: BJD reviews & guidelines with full papers
+  journalclub_bjd_special.csv   dataset (27 columns, one row per paper)
+  papers/                       open-licence PDFs only (CC BY, CC BY-NC); the rest link to OUP
 oct26/
   index.html                    screening dashboard (adds triage mode, evidence map, import)
   readinglist.html              printable reading list
