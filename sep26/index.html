@@ -286,6 +286,11 @@ dialog .dclose{position:absolute;top:14px;right:16px;color:var(--ink3);font-size
   a{color:#000;text-decoration:none}
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/* layout fixes (Nov 2026): the global reset pinned dialogs to the top-left corner,
+   and the action links did not wrap, so the page scrolled sideways on phones */
+dialog{margin:auto}
+.statusline .acts{flex-wrap:wrap;row-gap:6px}
+.marks{flex-wrap:wrap}
 </style></head>
 <body class="view-full">
 <nav id="jcnav" aria-label="Site navigation"><style>

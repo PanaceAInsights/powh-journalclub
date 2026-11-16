@@ -43,6 +43,8 @@ header .date{color:var(--text3);font-size:12px;font-family:ui-monospace,monospac
 .card .links{font-size:12px;margin-top:auto;padding-top:10px}.card .links a{text-decoration:none;margin-right:12px}
 .empty{color:var(--text3);padding:40px 0;text-align:center}
 footer{color:var(--text3);font-size:12px;line-height:1.7;margin-top:30px}footer code{font-family:ui-monospace,monospace;background:var(--surface2);padding:1px 5px;border-radius:4px}
+/* layout fix (Nov 2026): cards no longer force a 330px column, which overflowed small phones */
+#grid{grid-template-columns:repeat(auto-fill,minmax(min(330px,100%),1fr))}
 </style></head><body>
 <nav id="jcnav" aria-label="Site navigation"><style>
 #jcnav{--n-bg:#17140f;--n-fg:#ece5d7;--n-dim:#9c9284;--n-hi:#e2765c;--n-line:#2e2820;
